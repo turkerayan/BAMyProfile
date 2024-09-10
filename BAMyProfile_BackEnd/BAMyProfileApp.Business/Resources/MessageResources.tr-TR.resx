@@ -1,0 +1,1846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddressCanBeUpTo200Characters" xml:space="preserve">
+    <value>Adres en fazla 200 karakter olabilir..</value>
+  </data>
+  <data name="AddressMustContainAtLeast2Characters" xml:space="preserve">
+    <value>Adres en az 2 karakter içermelidir.</value>
+  </data>
+  <data name="DateOfBirthCannotBeEmpty" xml:space="preserve">
+    <value>Doğum Tarihi Boş Geçilemez</value>
+  </data>
+  <data name="EmailCannotBeEmpty" xml:space="preserve">
+    <value>Email Boş Geçilemez</value>
+  </data>
+  <data name="Event_Add_Fail" xml:space="preserve">
+    <value>Etkinlik Ekleme Başarısız</value>
+  </data>
+  <data name="Event_Add_Success" xml:space="preserve">
+    <value>Etkinlik Ekleme Başarılı</value>
+  </data>
+  <data name="Event_Already_Exists" xml:space="preserve">
+    <value>Etkinlik Zaten Kayıtlı</value>
+  </data>
+  <data name="Event_Date_Can_Not_Be_Empty" xml:space="preserve">
+    <value>Etkinlik tarihi boş bırakılamaz.</value>
+  </data>
+  <data name="Event_Deleted_Success" xml:space="preserve">
+    <value>Etkinlik Silme Başarılı</value>
+  </data>
+  <data name="Event_Found_Success" xml:space="preserve">
+    <value>Etkinlik Görüntüleme Başarılı</value>
+  </data>
+  <data name="Event_Listed_Fail" xml:space="preserve">
+    <value>Etkinlik Listeleme Başarısız</value>
+  </data>
+  <data name="Event_Listed_Success" xml:space="preserve">
+    <value>Etkinlik Listeleme Başarılı</value>
+  </data>
+  <data name="Event_Name_Can_Contain_Letters_And_Numbers" xml:space="preserve">
+    <value>Etkinlik adı harf ve rakam içerebilir</value>
+  </data>
+  <data name="Event_Name_Can_Not_Be_Empty" xml:space="preserve">
+    <value>Etkinlik adı boş geçilemez</value>
+  </data>
+   <data name="EventIdRequired" xml:space="preserve">
+    <value>Etkinlik Id boş geçilemez</value>
+  </data>
+  
+  <data name="Event_Name_Can_Not_Exceed_50_Characters" xml:space="preserve">
+    <value>Etkinlik adı 50 harften fazla olamaz</value>
+  </data>
+  <data name="Event_Not_Found" xml:space="preserve">
+    <value>Etkinlik Bulunamadı</value>
+  </data>
+  <data name="Event_Type_Can_Not_Be_Empty" xml:space="preserve">
+    <value>Etkinlik türü boş bırakılamaz.</value>
+  </data>
+  <data name="Event_Update_Fail" xml:space="preserve">
+    <value>Etkinlik Güncelleme Başarısız</value>
+  </data>
+  <data name="Event_Update_Success" xml:space="preserve">
+    <value>Etkinlik Güncelleme Başarılı</value>
+  </data>
+  <data name="Capability_Add_Fail" xml:space="preserve">
+    <value>Yetenek Ekleme Başarısız</value>
+  </data>
+  <data name="Capability_Add_Success" xml:space="preserve">
+    <value>Yetenek Ekleme Başarılı</value>
+  </data>
+  <data name="Capability_Already_Exists" xml:space="preserve">
+    <value>Yetenek Zaten Kayıtlı</value>
+  </data>
+  <data name="Capability_Deleted_Success" xml:space="preserve">
+    <value>Yetenek Silme Başarılı</value>
+  </data>
+  <data name="Capability_Found_Success" xml:space="preserve">
+    <value>Yetenek Görüntüleme Başarılı</value>
+  </data>
+  <data name="Capability_Listed_Fail" xml:space="preserve">
+    <value>Yetenek Listeleme Başarısız</value>
+  </data>
+  <data name="Capability_Listed_Success" xml:space="preserve">
+    <value>Yetenek Listeleme Başarılı</value>
+  </data>
+  <data name="Capability_Name_Cannot_Be_Empty" xml:space="preserve">
+    <value>Yetenek adı boş bırakılamaz.</value>
+  </data>
+  <data name="Capability_Name_Cannot_Exceed_256_Letters" xml:space="preserve">
+    <value>Yetenek adı 256 karakterden fazla olamaz.</value>
+  </data>
+  <data name="Capability_Not_Found" xml:space="preserve">
+    <value>Yetenek Bulunamadı</value>
+  </data>
+  <data name="Capability_Update_Fail" xml:space="preserve">
+    <value>Yetenek Güncelleme Başarısız</value>
+  </data>
+  <data name="Capability_Update_Success" xml:space="preserve">
+    <value>Yetenek Güncelleme Başarılı</value>
+  </data>
+  <data name="ContentCannotBeEmpty" xml:space="preserve">
+    <value>İçerik Boş Geçilemez</value>
+  </data>
+  <data name="ContentCannotExceed500Letters" xml:space="preserve">
+    <value>İçerik 500 Karakterden Fazla Olamaz</value>
+  </data>
+  <data name="Contentcannotbelessthan2Letters" xml:space="preserve">
+    <value>İçerik 2 Karakterden az Olamaz</value>
+  </data>
+  <data name="ContentCanOnlyContainLettersAndNumbers" xml:space="preserve">
+    <value>İçerik Alanı Yalnızca Harf Ve Rakam İçerebilir</value>
+  </data>
+  <data name="CvTitleLengthMessageMin" xml:space="preserve">
+    <value>CV başlığı minimum 2 harften oluşmalıdır.</value>
+  </data>
+  <data name="Cv_Add_Fail" xml:space="preserve">
+    <value>CV Ekleme Başarısız</value>
+  </data>
+  <data name="Cv_Add_Success" xml:space="preserve">
+    <value>CV Ekleme Başarılı</value>
+  </data>
+  <data name="Cv_Already_Exists" xml:space="preserve">
+    <value>CV Zaten Kayıtlı</value>
+  </data>
+  <data name="Cv_Deleted_Success" xml:space="preserve">
+    <value>CV Silme Başarılı</value>
+  </data>
+  <data name="CvFoundForEmail" xml:space="preserve">
+    <value>Girilen e-posta adresi için CV bulundu.</value>
+  </data>
+  <data name="Cv_Found_Success" xml:space="preserve">
+    <value>CV Görüntüleme Başarılı</value>
+  </data>
+  <data name="Cv_Listed_Fail" xml:space="preserve">
+    <value>CV Listeleme Başarısız</value>
+  </data>
+  <data name="Cv_Listed_Success" xml:space="preserve">
+    <value>CV Listeleme Başarılı</value>
+  </data>
+  <data name="Cv_Not_Found" xml:space="preserve">
+    <value>CV Bulunamadı</value>
+  </data>
+  <data name="List_Has_No_Cvs" xml:space="preserve">
+    <value>Listelenecek CV Yok</value>
+  </data>
+  <data name="CvProfileFormatMessage" xml:space="preserve">
+    <value>Ön yazı alanı harf ve rakam içerebilir.</value>
+  </data>
+  <data name="CvProfileLengthMessage" xml:space="preserve">
+    <value>Ön yazı alanı maksimum 512 harften oluşmalıdır.</value>
+  </data>
+   <data name="CvProfileLengthMessageMin" xml:space="preserve">
+    <value>Ön yazı alanı minimum 2 harften oluşmalıdır.</value>
+  </data>
+  <data name="CvProfileNotEmptyMessage" xml:space="preserve">
+    <value>Ön yazı alanı boş geçilemez!</value>
+  </data>
+  <data name="CvTitleFormatMessage" xml:space="preserve">
+    <value>CV başlığı harf ve rakam içerebilir.</value>
+  </data>
+  <data name="CvTitleLengthMessage" xml:space="preserve">
+    <value>CV başlığı maksimum 128 harften oluşmalıdır.</value>
+  </data>
+   <data name="CvTitleLengthMessageMin" xml:space="preserve">
+    <value>CV başlığı minimum 2 harften oluşmalıdır.</value>
+  </data>
+  <data name="CvTitleNotEmptyMessage" xml:space="preserve">
+    <value>CV başlığı boş geçilemez!</value>
+  </data>
+   <data name="Cv_Id_Required" xml:space="preserve">
+    <value>Cv Id Boş Bırakılamaz</value>
+  </data>
+  <data name="Cv_Update_Fail" xml:space="preserve">
+    <value>CV Güncelleme Başarısız</value>
+  </data>
+  <data name="Cv_Update_Success" xml:space="preserve">
+    <value>CV Güncelleme Başarılı</value>
+  </data>
+  <data name="DepartmentAddFail" xml:space="preserve">
+    <value>Bölüm Ekleme Başarısız</value>
+  </data>
+  <data name="Department_Add_Success" xml:space="preserve">
+    <value>Bölüm Ekleme Başarılı</value>
+  </data>
+  <data name="Department_Already_Exists" xml:space="preserve">
+    <value>Bölüm Zaten Kayıtlı</value>
+  </data>
+  <data name="Department_Deleted_Success" xml:space="preserve">
+    <value>Bölüm Silme Başarılı</value>
+  </data>
+  <data name="Department_Found_Success" xml:space="preserve">
+    <value>Bölüm Görüntüleme Başarılı</value>
+  </data>
+  <data name="DepartmentListedFail" xml:space="preserve">
+    <value>Bölümler Listeleme Başarısız</value>
+  </data>
+  <data name="Department_Listed_Success" xml:space="preserve">
+    <value>Bölümler Listeleme Başarılı</value>
+  </data>
+  <data name="DepartmentNameCanContainLettersAndNumbers" xml:space="preserve">
+    <value>Departman adı harf ve rakam içerebilir</value>
+  </data>
+  <data name="DepartmentNameCannotBeEmpty" xml:space="preserve">
+    <value>Departman adı boş geçilemez</value>
+  </data>
+  <data name="DepartmentIdRequired" xml:space="preserve">
+    <value>Departman Id boş bırakılamaz.</value>
+  </data>
+  <data name="DepartmentNameCannotExceed256Letters" xml:space="preserve">
+    <value>Departman adı 256 harften fazla olamaz</value>
+  </data>
+  <data name="DepartmentNameMustBeAtLeast2Characters" xml:space="preserve">
+    <value>Departman adı 2 harften az olamaz</value>
+  </data>
+  <data name="Department_Not_Found" xml:space="preserve">
+    <value>Bölüm Bulunamadı</value>
+  </data>
+  <data name="DepartmentUpdateFail" xml:space="preserve">
+    <value>Bölüm Güncelleme Başarısız</value>
+  </data>
+  <data name="Department_Update_Success" xml:space="preserve">
+    <value>Bölüm Güncelleme Başarılı</value>
+  </data>
+  <data name="Certificate_Achievement_Status_Cannot_Be_Empty" xml:space="preserve">
+    <value>Kazanım durumu boş geçilemez.</value>
+  </data>
+  <data name="Certificate_Add_Fail" xml:space="preserve">
+    <value>Sertifika Ekleme Başarısız</value>
+  </data>
+  <data name="Certificate_Add_Success" xml:space="preserve">
+    <value>Sertifika Ekleme Başarılı</value>
+  </data>
+  <data name="Certificate_Already_Exists" xml:space="preserve">
+    <value>Sertifika Zaten Kayıtlı</value>
+  </data>
+  <data name="Certificate_Date_Cannot_Be_Empty" xml:space="preserve">
+    <value>Sertifika tarihi boş geçilemez.</value>
+  </data>
+  <data name="Certificate_Deleted_Success" xml:space="preserve">
+    <value>Sertifika Silme Başarılı</value>
+  </data>
+  <data name="Certificate_Description_Can_Contain_Letters_And_Numbers" xml:space="preserve">
+    <value>Sertifika açıklaması harf ve rakam içerebilir.</value>
+  </data>
+  <data name="Certificate_Description_Cannot_Be_Empty" xml:space="preserve">
+    <value>Sertifika açıklaması boş geçilemez.</value>
+  </data>
+  <data name="Certificate_Description_Cannot_Exceed_256_Letters" xml:space="preserve">
+    <value>Sertifika açıklaması 256 harften fazla olamaz.</value>
+  </data>
+  <data name="Certificate_Description_Cannot_Be_Less_Than_2_Letters" xml:space="preserve">
+    <value>Sertifika açıklaması 2 harften az olamaz.</value>
+  </data>
+  <data name="Certificate_Found_Success" xml:space="preserve">
+    <value>Sertifika Görüntüleme Başarılı</value>
+  </data>
+  <data name="Certificate_Listed_Fail" xml:space="preserve">
+    <value>Sertifika Listeleme Başarısız</value>
+  </data>
+  <data name="Certificate_Listed_Success" xml:space="preserve">
+    <value>Sertifika Listeleme Başarılı</value>
+  </data>
+  <data name="Certificate_Name_Can_Contain_Letters_And_Numbers" xml:space="preserve">
+    <value>Sertifika adı harf ve rakam içerebilir.</value>
+  </data>
+  <data name="Certificate_Name_Cannot_Be_Empty" xml:space="preserve">
+    <value>Sertifika adı boş geçilemez.</value>
+  </data>
+  <data name="Certificate_Name_Cannot_Exceed_256_Letters" xml:space="preserve">
+    <value>Sertifika adı 256 harften fazla olamaz.</value>
+  </data>
+  <data name="Certificate_Name_Cannot_Be_Less_Than_2_Letters" xml:space="preserve">
+    <value>Sertifika adı 2 harften az olamaz.</value>
+  </data>
+  <data name="Certificate_Not_Found" xml:space="preserve">
+    <value>Sertifika Bulunamadı</value>
+  </data>
+  <data name="Certificate_Update_Fail" xml:space="preserve">
+    <value>Sertifika Güncelleme Başarısız</value>
+  </data>
+  <data name="Certificate_Update_Success" xml:space="preserve">
+    <value>Sertifika Güncelleme Başarılı</value>
+  </data>
+   <data name="Certificate_Id_Required" xml:space="preserve">
+    <value>Sertifika id boş olamaz</value>
+  </data>
+  <data name="CompanyNameFormat" xml:space="preserve">
+    <value>Şirket adı formatı geçersiz</value>
+  </data>
+  <data name="Company_Name_Max_Length" xml:space="preserve">
+    <value>Şirket Adı 100 Karakterden Fazla Olamaz</value>
+  </data>
+  <data name="Company_Name_Not_Empty" xml:space="preserve">
+    <value>Şirket Adı Boş Bırakılamaz</value>
+  </data>
+  <data name="Company_General_Information_Not_Empty" xml:space="preserve">
+    <value>Şirket Genel Bilgisi Boş Bırakılamaz</value>
+  </data>
+   <data name="Company_Location_Not_Empty" xml:space="preserve">
+    <value>Şirket Lokasyonu Boş Bırakılamaz</value>
+  </data>
+   <data name="Company_Contact_Information_Phone_Number_Not_Empty" xml:space="preserve">
+    <value>Telefon Numarası Bilgisi Boş Olamaz</value>
+  </data>
+  <data name="DateOfEndMustBeAfterStart" xml:space="preserve">
+    <value>Bitiş tarihi Başlangıç tarihinden sonra olmalıdır</value>
+  </data>
+  <data name="DateOfStartNotEmpty" xml:space="preserve">
+    <value>Başlangıç tarihi boş bırakılamaz</value>
+  </data>
+  <data name="DescriptionNotEmpty" xml:space="preserve">
+    <value>Açıklama boş bırakılamaz</value>
+  </data>
+  <data name="Example_Add_Success" xml:space="preserve">
+    <value>Örnek Ekleme Başarılı</value>
+  </data>
+  <data name="Example_Already_Exists" xml:space="preserve">
+    <value>Örnek Zaten Kayıtlı</value>
+  </data>
+  <data name="LanguageLevelCannotBeEmpty" xml:space="preserve">
+    <value>Yabancı Dil Seviyesi Boş Geçilemez.</value>
+  </data>
+  <data name="LanguageLevelCanOnlyContainNumbers" xml:space="preserve">
+    <value>Geçerli Bir Yabancı Dil Seviyesi Giriniz.</value>
+  </data>
+  <data name="LanguageNameCannotBeEmpty" xml:space="preserve">
+    <value>Yabancı Dil Adı Boş Geçilemez</value>
+  </data>
+  <data name="LanguageNameCannotExceed255Letters" xml:space="preserve">
+    <value>Yabancı Dil Adı 255 Harften Fazla Olamaz</value>
+  </data>
+  <data name="LanguageNameCannotExceed2Letters" xml:space="preserve">
+    <value>Yabancı Dil Adı 2 Harften az Olamaz</value>
+  </data>
+  <data name="LanguageNameCanOnlyContainLetters" xml:space="preserve">
+    <value>Yabancı dil Adı Sadece Harf İçerebilir</value>
+  </data>
+  <data name="Languages_Add_Fail" xml:space="preserve">
+    <value>Yabancı Dil Başarısız</value>
+  </data>
+  <data name="Languages_Add_Success" xml:space="preserve">
+    <value>Yabancı Dil Ekleme Başarılı</value>
+  </data>
+  <data name="Languages_Already_Exists" xml:space="preserve">
+    <value>Yabancı Dil Zaten Kayıtlı</value>
+  </data>
+  <data name="Languages_Deleted_Success" xml:space="preserve">
+    <value>Yabancı Dil Silme Başarılı</value>
+  </data>
+  <data name="Languages_Found_Success" xml:space="preserve">
+    <value>Yabancı Dil Görüntüleme Başarılı</value>
+  </data>
+  <data name="Languages_Listed_Fail" xml:space="preserve">
+    <value>Yabancı Dil Listeleme Başarısız</value>
+  </data>
+  <data name="Languages_Listed_Success" xml:space="preserve">
+    <value>Yabancı Dil Listeleme Başarılı</value>
+  </data>
+  <data name="Languages_Not_Found" xml:space="preserve">
+    <value>Yabancı Dil Bulunamadı</value>
+  </data>
+  <data name="Languages_Update_Fail" xml:space="preserve">
+    <value>Yabancı Dil Güncelleme Başarısız</value>
+  </data>
+  <data name="Languages_Update_Success" xml:space="preserve">
+    <value>Yabancı Dil Güncelleme Başarılı</value>
+  </data>
+  <data name="List_Has_No_Languages" xml:space="preserve">
+    <value>Listelenecek Yabancı Dil Yok</value>
+  </data>
+  <data name="Languages_Id_Required" xml:space="preserve">
+    <value>Yabancı Dil Id Boş Olamaz</value>
+  </data>
+  <data name="GenderMustBeSelected" xml:space="preserve">
+    <value>Cinsiyet Seçilmelidir</value>
+  </data>
+  <data name="List_Has_No_Student" xml:space="preserve">
+    <value>Listelenecek Öğrenci Bulunmamaktadır</value>
+  </data>
+  <data name="List_Has_No_Events" xml:space="preserve">
+    <value>Listelenecek Etkinlik Yok</value>
+  </data>
+  <data name="List_Has_No_Capability" xml:space="preserve">
+    <value>Listelenecek Yetenek Yok</value>
+  </data>
+  <data name="List_Has_No_Departments" xml:space="preserve">
+    <value>Listelenecek Bölüm Yok</value>
+  </data>
+  <data name="Faculty_Add_Fail" xml:space="preserve">
+    <value>Fakülte Ekleme Başarısız</value>
+  </data>
+  <data name="Faculty_Add_Success" xml:space="preserve">
+    <value>Fakülte Ekleme Başarılı</value>
+  </data>
+  <data name="Faculty_Already_Exists" xml:space="preserve">
+    <value>Fakülte Zaten Kayıtlı</value>
+  </data>
+  <data name="Faculty_Deleted_Success" xml:space="preserve">
+    <value>Fakülte Silme Başarılı</value>
+  </data>
+  <data name="Faculty_Found_Success" xml:space="preserve">
+    <value>Fakülte Görüntüleme Başarılı</value>
+  </data>
+  <data name="Faculty_Id_Required" xml:space="preserve">
+    <value>Fakülte Id boş olamaz</value>
+  </data>
+  
+  <data name="Faculty_Listed_Fail" xml:space="preserve">
+    <value>Fakülteler Listeleme Başarısız</value>
+  </data>
+  <data name="Faculty_Listed_Success" xml:space="preserve">
+    <value>Fakülteler Listeleme Başarılı</value>
+  </data>
+  <data name="FacultyNameCanContainLettersAndNumbers" xml:space="preserve">
+    <value>Fakülte adı harf ve rakam içerebilir</value>
+  </data>
+  <data name="FacultyNameCannotBeEmpty" xml:space="preserve">
+    <value>Fakülte adı boş geçilemez</value>
+  </data>
+  <data name="FacultyNameCannotExceed256Letters" xml:space="preserve">
+    <value>Fakülte adı 256 harften fazla olamaz</value>
+  </data>
+   <data name="FacultyNameCannotExceed2Letters" xml:space="preserve">
+    <value>Fakülte adı 2 harften az olamaz</value>
+  </data>
+  <data name="Faculty_Not_Found" xml:space="preserve">
+    <value>Fakülte Bulunamadı</value>
+  </data>
+  <data name="Faculty_Update_Fail" xml:space="preserve">
+    <value>Fakülte Güncelleme Başarısız</value>
+  </data>
+  <data name="Faculty_Update_Success" xml:space="preserve">
+    <value>Fakülte Güncelleme Başarılı</value>
+  </data>
+  <data name="List_Has_No_Faculties" xml:space="preserve">
+    <value>Listelenecek Fakülte Yok</value>
+  </data>
+  <data name="Interview_Add_Fail" xml:space="preserve">
+    <value>Mülakat Ekleme Başarısız</value>
+  </data>
+  <data name="Interview_Add_Success" xml:space="preserve">
+    <value>Mülakat Ekleme Başarılı</value>
+  </data>
+  <data name="Interview_Already_Exists" xml:space="preserve">
+    <value>Mülakat Zaten Kayıtlı</value>
+  </data>
+  <data name="InterviewDateRequired" xml:space="preserve">
+    <value>Mülakat tarihi boş bırakılamaz.</value>
+  </data>
+  <data name="InterviewDateRequired1" xml:space="preserve">
+    <value>Mülakat tarihi boş bırakılamaz.</value>
+  </data>
+  <data name="InterviewDateWithinYear" xml:space="preserve">
+    <value>Mülakat tarihi bu yıl içerisinde olmalı.</value>
+  </data>
+  <data name="InterviewDateWithinYear1" xml:space="preserve">
+    <value>Mülakat tarihi bu yıl içerisinde olmalı.</value>
+  </data>
+  <data name="Interview_Deleted_Success" xml:space="preserve">
+    <value>Mülakat Silme Başarılı</value>
+  </data>
+  <data name="InterviewerNameRequired" xml:space="preserve">
+    <value>Mülakatı gerçekleştiren kişi adı boş bırakılamaz.</value>
+  </data>
+  <data name="InterviewerNameRequired1" xml:space="preserve">
+    <value>Mülakatı gerçekleştiren kişi adı boş bırakılamaz.</value>
+  </data>
+  <data name="Interview_Found_Success" xml:space="preserve">
+    <value>Mülakat Görüntüleme Başarılı</value>
+  </data>
+  <data name="InterviewIdRequired" xml:space="preserve">
+    <value>Mülakat Id boş bırakılamaz.</value>
+  </data>
+  <data name="InterviewIdRequired1" xml:space="preserve">
+    <value>Mülakat Id boş bırakılamaz.</value>
+  </data>
+  <data name="Interview_Listed_Fail" xml:space="preserve">
+    <value>Mülakat Listeleme Başarısız</value>
+  </data>
+  <data name="Interview_Listed_Success" xml:space="preserve">
+    <value>Mülakat Listeleme Başarılı</value>
+  </data>
+  <data name="InterviewLocationRequired" xml:space="preserve">
+    <value>Mülakat yeri boş bırakılamaz.</value>
+  </data>
+  <data name="InterviewLocationRequired1" xml:space="preserve">
+    <value>Mülakat yeri boş bırakılamaz.</value>
+  </data>
+  <data name="InterviewNameMaxLength" xml:space="preserve">
+    <value>Mülakat adı en fazla 50 karakter olabilir.</value>
+  </data>
+  <data name="InterviewNameMaxLength1" xml:space="preserve">
+    <value>Mülakat adı en fazla 50 karakter olabilir.</value>
+  </data>
+  <data name="InterviewNameRequired" xml:space="preserve">
+    <value>Mülakat adı boş bırakılamaz.</value>
+  </data>
+  <data name="InterviewNameRequired1" xml:space="preserve">
+    <value>Mülakat adı boş bırakılamaz.</value>
+  </data>
+  <data name="InterviewNotesMaxLength" xml:space="preserve">
+    <value>Mülakat notları en fazla 500 karakter olabilir.</value>
+  </data>
+  <data name="InterviewNotesMaxLength1" xml:space="preserve">
+    <value>Mülakat notları en fazla 500 karakter olabilir.</value>
+  </data>
+  <data name="InterviewNotesRequired" xml:space="preserve">
+    <value>Mülakat notları boş bırakılamaz.</value>
+  </data>
+  <data name="InterviewNotesRequired1" xml:space="preserve">
+    <value>Mülakat notları boş bırakılamaz.</value>
+  </data>
+  <data name="Interview_Not_Found" xml:space="preserve">
+    <value>Mülakat Bulunamadı</value>
+  </data>
+  <data name="Interview_Update_Fail" xml:space="preserve">
+    <value>Mülakat Güncelleme Başarısız</value>
+  </data>
+  <data name="Interview_Update_Success" xml:space="preserve">
+    <value>Mülakat Güncelleme Başarılı</value>
+  </data>
+  <data name="InvalidDateFormat" xml:space="preserve">
+    <value>Geçerli bir tarih formatı giriniz.</value>
+  </data>
+  <data name="InvalidDateFormat1" xml:space="preserve">
+    <value>Geçerli bir tarih formatı giriniz.</value>
+  </data>
+  <data name="List_Has_No_Interviews" xml:space="preserve">
+    <value>Listelenecek Mülakat Yok</value>
+  </data>
+  <data name="List_Has_No_Certificates" xml:space="preserve">
+    <value>Listelenecek Sertifika Yok</value>
+  </data>
+  <data name="Experience_Already_Exists" xml:space="preserve">
+    <value>Deneyim zaten mevcut</value>
+  </data>
+  <data name="Experience_Deleted_Success" xml:space="preserve">
+    <value>Deneyim başarıyla silindi</value>
+  </data>
+  <data name="Experience_Found_Success" xml:space="preserve">
+    <value>Deneyim başarıyla bulundu</value>
+  </data>
+  <data name="Experience_Listed_Success" xml:space="preserve">
+    <value>Deneyimler başarıyla listelendi</value>
+  </data>
+  <data name="Experience_Not_Found" xml:space="preserve">
+    <value>Deneyim bulunamadı</value>
+  </data>
+  <data name="Experience_Update_Success" xml:space="preserve">
+    <value>Deneyim başarıyla güncellendi</value>
+  </data>
+  <data name="List_Has_No_Experiences" xml:space="preserve">
+    <value>Listenecek Deneyim Yok</value>
+  </data>
+  <data name="ListHasNoUniversities" xml:space="preserve">
+    <value>Listelenecek Üniversite Yok</value>
+  </data>
+  <data name="PhoneNumberCanOnlyContainNumber" xml:space="preserve">
+    <value>Telefon Numarası Sadece Rakam İçermelidir</value>
+  </data>
+  <data name="PhoneNumberMustBe11DigitsandStartingWith0" xml:space="preserve">
+    <value>Telefon Numarası 0 ile başlamalıdır ve 11 Karakterli Olmalıdır </value>
+  </data>
+  <data name="PleaseEnterValidDateofBirth" xml:space="preserve">
+    <value>Geçerli Bir Doğum Tarihi Giriniz</value>
+  </data>
+  <data name="PleaseEnterValidEmail" xml:space="preserve">
+    <value>Geçerli bir Email Giriniz. Örn: ogrenci@email.com</value>
+  </data>
+  <data name="PleaseSelectValidGender" xml:space="preserve">
+    <value>Geçerli Bir Cinsiyet Seçiniz</value>
+  </data>
+  <data name="Student_Add_Fail" xml:space="preserve">
+    <value>Öğrenci Ekleme Başarısız</value>
+  </data>
+  <data name="Student_Add_Success" xml:space="preserve">
+    <value>Öğrenci Ekleme Başarılı</value>
+  </data>
+  <data name="Student_Already_Exists" xml:space="preserve">
+    <value>Öğrenci Zaten Kayıtlı</value>
+  </data>
+  <data name="Student_Deleted_Success" xml:space="preserve">
+    <value>Öğrenci Silme Başarılı</value>
+  </data>
+  <data name="Student_Found_Success" xml:space="preserve">
+    <value>Öğrenci Görüntüleme Başarılı</value>
+  </data>
+  <data name="Student_Listed_Success" xml:space="preserve">
+    <value>Öğrenci Listeleme Başarılı</value>
+  </data>
+  <data name="Student_Name_Cannot_Be_Empty" xml:space="preserve">
+    <value>Öğrenci Adı Boş Bırakılamaz</value>
+  </data>
+  <data name="Student_Name_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Öğrenci Adı Yalnızca Harf İçermelidir</value>
+  </data>
+  <data name="Student_Not_Found" xml:space="preserve">
+    <value>Öğrenci Bulunamadı</value>
+  </data>
+  <data name="Student_Surname_Cannot_Be_Empty" xml:space="preserve">
+    <value>Öğrenci Soyadı Boş Bırakılamaz</value>
+  </data>
+  <data name="Student_Surname_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Öğrenci Soyadı Yalnızca Harf İçermelidir</value>
+  </data>
+  <data name="Student_Update_Success" xml:space="preserve">
+    <value>Öğrenci Güncelleme Başarılı</value>
+  </data>
+  <data name="PositionInterviewedForRequired" xml:space="preserve">
+    <value>Mülakat yapılan pozisyon boş bırakılamaz.</value>
+  </data>
+  <data name="PositionInterviewedForRequired1" xml:space="preserve">
+    <value>Mülakat yapılan pozisyon boş bırakılamaz.</value>
+  </data>
+  <data name="Student_Id_Required" xml:space="preserve">
+    <value>Öğrenci Id boş bırakılamaz.</value>
+  </data>
+  <data name="StudentIdRequired1" xml:space="preserve">
+    <value>Öğrenci Id boş bırakılamaz.</value>
+  </data>
+  <data name="PositionMaxLength" xml:space="preserve">
+    <value>Pozisyon 50 karakterden fazla olamaz</value>
+  </data>
+  <data name="PositionNotEmpty" xml:space="preserve">
+    <value>Pozisyon boş bırakılamaz</value>
+  </data>
+  <data name="MinimumOf2HoursOfTrainingCanBeEntered" xml:space="preserve">
+    <value>En Az 2 Saat Eğitim Girilebilir</value>
+  </data>
+  <data name="TraningProgramIdRequired" xml:space="preserve">
+    <value>Eğitim Programı Id Boş Geçilemez</value>
+  </data>
+   <data name="UniversityNameCannotExceed256Letters" xml:space="preserve">
+    <value>Üniversite adı 256 harfden fazla olamaz</value>
+  </data>
+  <data name="UniversityNamecannotbelessthan2letters" xml:space="preserve">
+    <value>Üniversite adı 2 harfden az olamaz</value>
+  </data>
+  <data name="TrainingHoursCannotBeEmpty" xml:space="preserve">
+    <value>Eğitim Saati Boş Geçilemez</value>
+  </data>
+  <data name="TrainingProgramTitleCannotBeEmpty" xml:space="preserve">
+    <value>Eğitim Programı Başlığı Boş Geçilemez</value>
+  </data>
+  <data name="TrainingProgramTitleCannotExceed50Letters" xml:space="preserve">
+    <value>Eğitim Programı Başlığı 50 karakterden fazla olamaz</value>
+  </data>
+  <data name="TrainingProgramTitlecannotbelessthan2letters" xml:space="preserve">
+    <value>Eğitim Programı Başlığı 2 karakterden az olamaz</value>
+  </data>
+  
+  <data name="TrainingProgramUpdateSuccess" xml:space="preserve">
+    <value>Eğitim Programı Güncelleme Başarılı</value>
+  </data>
+  <data name="UniversityIdRequired" xml:space="preserve">
+    <value>Üniversite Id boş olamaz</value>
+  </data>
+
+  <data name="University_Add_Fail" xml:space="preserve">
+    <value>Üniversite Ekleme Başarısız</value>
+  </data>
+  <data name="University_Add_Success" xml:space="preserve">
+    <value>Üniversite Ekleme Başarılı</value>
+  </data>
+  <data name="University_Already_Exists" xml:space="preserve">
+    <value>Üniversite Zaten Kayıtlı</value>
+  </data>
+  <data name="University_Deleted_Success" xml:space="preserve">
+    <value>Üniversite Silme Başarılı</value>
+  </data>
+  <data name="University_Found_Success" xml:space="preserve">
+    <value>Üniversite Görüntüleme Başarılı</value>
+  </data>
+  <data name="University_Listed_Fail" xml:space="preserve">
+    <value>Üniversiteler Listeleme Başarısız</value>
+  </data>
+  <data name="University_Listed_Success" xml:space="preserve">
+    <value>Üniversiteler Listeleme Başarılı</value>
+  </data>
+  <data name="UniversityNameCanContainLettersAndNumbers" xml:space="preserve">
+    <value>Üniversite adı harf ve rakam içerebilir</value>
+  </data>
+  <data name="UniversityNameCannotBeEmpty" xml:space="preserve">
+    <value>Üniversite adı boş geçilemez</value>
+  </data>
+  <data name="UniversityNameCannotExceed256Letters" xml:space="preserve">
+    <value>Üniversite adı 256 harften fazla olamaz</value>
+  </data>
+  <data name="University_Not_Found" xml:space="preserve">
+    <value>Üniversite Bulunamadı</value>
+  </data>
+  <data name="University_Update_Fail" xml:space="preserve">
+    <value>Üniversite Güncelleme Başarısız</value>
+  </data>
+  <data name="University_Update_Success" xml:space="preserve">
+    <value>Üniversite Güncelleme Başarılı</value>
+  </data>
+  <data name="List_Has_No_References" xml:space="preserve">
+    <value>Listelenecek Referans Yok</value>
+  </data>
+  <data name="Reference_Add_Fail" xml:space="preserve">
+    <value>Referans Ekleme Başarısız</value>
+  </data>
+  <data name="Reference_Add_Success" xml:space="preserve">
+    <value>Referans Ekleme Başarılı</value>
+  </data>
+  <data name="ReferenceAdressCannotBeLeftBlank" xml:space="preserve">
+    <value>Adres boş bırakılamaz</value>
+  </data>
+  <data name="ReferenceAdressMustBeAtLeastTwoCharacters" xml:space="preserve">
+    <value>Adres en az 2 karakter olmalıdır</value>
+  </data>
+  <data name="Reference_Already_Exists" xml:space="preserve">
+    <value>Referans Zaten Kayıtlı</value>
+  </data>
+  <data name="ReferenceCompanyCannotBeLeftBlank" xml:space="preserve">
+    <value>Şirket boş bırakılamaz</value>
+  </data>
+  <data name="Reference_Deleted_Success" xml:space="preserve">
+    <value>Referans Silme Başarılı</value>
+  </data>
+  <data name="Reference_Found_Success" xml:space="preserve">
+    <value>Referans Görüntüleme Başarılı</value>
+  </data>
+  <data name="ReferenceIdNotEmpty" xml:space="preserve">
+    <value>Referans Id boş bırakılamaz</value>
+  </data>
+  <data name="ReferenceInformationCannotBeLeftBlank" xml:space="preserve">
+    <value>İletişim bilgisi boş bırakılamaz</value>
+  </data>
+  <data name="Reference_Listed_Fail" xml:space="preserve">
+    <value>Referans Listeleme Başarısız</value>
+  </data>
+  <data name="Reference_Listed_Success" xml:space="preserve">
+    <value>Referans Listeleme Başarılı</value>
+  </data>
+  <data name="ReferenceNameMustConsistOfLetersOnly" xml:space="preserve">
+    <value>İsim sadece harf içermelidir</value>
+  </data>
+  <data name="ReferenceNameNotEmptyMessage" xml:space="preserve">
+    <value>İsim boş bırakılamaz</value>
+  </data>
+  <data name="Reference_Not_Found" xml:space="preserve">
+    <value>Referans Bulunamadı</value>
+  </data>
+  <data name="Reference_Update_Fail" xml:space="preserve">
+    <value>Referans Güncelleme Başarısız</value>
+  </data>
+  <data name="Reference_Update_Success" xml:space="preserve">
+    <value>Referans Güncelleme Başarılı</value>
+  </data>
+  <data name="Benefit_Id_Required" xml:space="preserve">
+    <value>Avantaj Id boş bırakılamaz</value>
+  </data>
+  <data name="BenefitNameFormat" xml:space="preserve">
+    <value>Avantaj adı yalnızca rakam ve harf içerebilir</value>
+  </data>
+  <data name="Benefit_Name_Not_Empty" xml:space="preserve">
+    <value>Avantaj adı boş bırakılamaz</value>
+  </data>
+  <data name="Job_Description_Not_Empty" xml:space="preserve">
+    <value>İş açıklaması boş bırakılamaz</value>
+  </data>
+  <data name="Job_Education_Format" xml:space="preserve">
+    <value>İstenen öğrenim durumu yalnızca rakam ve harf içerebilir</value>
+  </data>
+  <data name="Job_Education_Not_Empty" xml:space="preserve">
+    <value>İstenen öğrenim durumu boş bırakılamaz</value>
+  </data>
+  <data name="Job_Experience_Format" xml:space="preserve">
+    <value>İstenen tecrübe yalnızca rakam ve harf içerebilir</value>
+  </data>
+  <data name="Job_Experience_Not_Empty" xml:space="preserve">
+    <value>İstenen tecrübe boş bırakılamaz</value>
+  </data>
+  <data name="Job_Id_Required" xml:space="preserve">
+    <value>İş Id boş bırakılamaz</value>
+  </data>
+  <data name="Job_Position_Not_Empty" xml:space="preserve">
+    <value>İş pozisyonu boş bırakılamaz</value>
+  </data>
+  <data name="Job_Salary_Greater_Than_Zero" xml:space="preserve">
+    <value>Maaş sıfırdan büyük olmalıdır</value>
+  </data>
+  <data name="Job_Salary_Not_Empty" xml:space="preserve">
+    <value>Maaş boş bırakılamaz</value>
+  </data>
+  <data name="Job_Status_Not_Empty" xml:space="preserve">
+    <value>İş Durumu Boş Geçilemez</value>
+  </data>
+  <data name="Job_Work_Location_Not_Empty" xml:space="preserve">
+    <value>İş konumu boş bırakılamaz</value>
+  </data>
+  <data name="Skill_Id_Required" xml:space="preserve">
+    <value>Beceri Id boş bırakalamaz</value>
+  </data>
+  <data name="SkillNameFormat" xml:space="preserve">
+    <value>Beceri adı yalnızca rakam ve harf içerebilir</value>
+  </data>
+  <data name="Skill_Name_Not_Empty" xml:space="preserve">
+    <value>Beceri adı boş bırakalamaz</value>
+  </data>
+  <data name="Benefit_Add_Success" xml:space="preserve">
+    <value>Avantaj Ekleme başarılı</value>
+  </data>
+  <data name="Benefit_Already_Exists" xml:space="preserve">
+    <value>Avantaj zaten mevcut</value>
+  </data>
+  <data name="Benefit_Deleted_Success" xml:space="preserve">
+    <value>Avantaj Silme başarılı</value>
+  </data>
+  <data name="Benefit_Found_Success" xml:space="preserve">
+    <value>Avantaj Görüntüleme başarılı</value>
+  </data>
+  <data name="Benefit_Listed_Success" xml:space="preserve">
+    <value>Avantaj Listeleme başarılı</value>
+  </data>
+  <data name="Benefit_Not_Found" xml:space="preserve">
+    <value>Avantaj bulunamadı</value>
+  </data>
+  <data name="Benefit_Update_Success" xml:space="preserve">
+    <value>Avantaj Güncelleme başarılı</value>
+  </data>
+  <data name="Job_Add_Success" xml:space="preserve">
+    <value>İş Ekleme Başarılı</value>
+  </data>
+  <data name="Job_Deleted_Success" xml:space="preserve">
+    <value>İş Silme Başarılı</value>
+  </data>
+  <data name="Job_Found_Success" xml:space="preserve">
+    <value>İş Görüntüleme Başarılı</value>
+  </data>
+  <data name="Job_Listed_Success" xml:space="preserve">
+    <value>İş Listeleme Başarılı</value>
+  </data>
+  <data name="Job_Listed_Fail" xml:space="preserve">
+    <value>İş Listeleme Başarısız</value>
+  </data>
+  <data name="Job_Not_Found" xml:space="preserve">
+    <value>İş Bulunamadı </value>
+  </data>
+  <data name="Job_Already_Exists" xml:space="preserve">
+    <value>İş İlanı Zaten Kayıtlı</value>
+  </data>
+  <data name="Job_Update_Success" xml:space="preserve">
+    <value>İş Güncelleme Başarılı</value>
+  </data>
+  <data name="Job_Update_Fail" xml:space="preserve">
+    <value>İş Güncelleme Başarısız</value>
+  </data>
+  <data name="List_Has_No_Jobs" xml:space="preserve">
+    <value>Listelenecek İş Bulunamadı</value>
+  </data>
+  <data name="Job_Add_Fail" xml:space="preserve">
+    <value>İş Ekleme Başarısız</value>
+  </data>
+  <data name="List_Has_No_Benefits" xml:space="preserve">
+    <value>Listelenecek avantaj bulunamadı</value>
+  </data>
+  <data name="List_Has_No_Skills" xml:space="preserve">
+    <value>Listelenecek Beceri bulunamadı</value>
+  </data>
+  <data name="Skill_Add_Success" xml:space="preserve">
+    <value>Beceri Ekleme başarılı</value>
+  </data>
+  <data name="Skill_Already_Exists" xml:space="preserve">
+    <value>Beceri zaten mevcut</value>
+  </data>
+  <data name="Skill_Deleted_Success" xml:space="preserve">
+    <value>Beceri Silme başarılı</value>
+  </data>
+  <data name="Skill_Found_Success" xml:space="preserve">
+    <value>Beceri Görüntüleme başarılı</value>
+  </data>
+  <data name="Skill_Listed_Success" xml:space="preserve">
+    <value>Beceri Listeleme başarılı</value>
+  </data>
+  <data name="Skill_Not_Found" xml:space="preserve">
+    <value>Beceri bulunamadı</value>
+  </data>
+  <data name="Skill_Update_Success" xml:space="preserve">
+    <value>Beceri Güncelleme başarılı</value>
+  </data>
+  <data name="CandidateAddFail" xml:space="preserve">
+    <value>Aday Ekleme Başarısız</value>
+  </data>
+  <data name="Candidate_Add_Success" xml:space="preserve">
+    <value>Aday Ekleme Başarılı</value>
+  </data>
+  <data name="Candidate_Already_Exists" xml:space="preserve">
+    <value>Aday Zaten Kayıtlı</value>
+  </data>
+  <data name="Candidate_Deleted_Success" xml:space="preserve">
+    <value>Aday Silme Başarılı</value>
+  </data>
+  <data name="Candidate_Found_Success" xml:space="preserve">
+    <value>Aday Görüntüleme Başarılı</value>
+  </data>
+  <data name="Candidate_Listed_Success" xml:space="preserve">
+    <value>Aday Listeleme Başarılı</value>
+  </data>
+  <data name="Candidate_Not_Found" xml:space="preserve">
+    <value>Aday Bulunamadı</value>
+  </data>
+  <data name="Candidate_Update_Success" xml:space="preserve">
+    <value>Aday Güncelleme Başarılı</value>
+  </data>
+  <data name="Application_Interviewer_Add_Success" xml:space="preserve">
+    <value>Görüşmeci Ekleme Başarılı</value>
+  </data>
+  <data name="Application_Interviewer_Add_Fail" xml:space="preserve">
+    <value>Görüşmeci Ekleme Başarısız</value>
+  </data>
+  <data name="Application_Interviewer_Update_Success" xml:space="preserve">
+    <value>Görüşmeci Güncelleme Başarılı</value>
+  </data>
+  <data name="Application_Interviewer_Update_Fail" xml:space="preserve">
+    <value>Görüşmeci Güncelleme Başarısız</value>
+  </data>
+  <data name="Application_Interviewer_Listed_Success" xml:space="preserve">
+    <value>Görüşmeci Listeleme Başarılı</value>
+  </data>
+  <data name="Application_Interviewer_Found_Success" xml:space="preserve">
+    <value>Görüşmeci Görüntüleme Başarılı</value>
+  </data>
+  <data name="Application_Interviewer_Deleted_Success" xml:space="preserve">
+    <value>Görüşmeci Silme Başarılı</value>
+  </data>
+  <data name="Application_Interviewer_Listed_Fail" xml:space="preserve">
+    <value>Görüşmeci Listeleme Başarısız</value>
+  </data>
+  <data name="Application_Interviewer_Already_Exists" xml:space="preserve">
+    <value>Görüşmeci Zaten Kayıtlı</value>
+  </data>
+  <data name="Application_Interviewer_Not_Found" xml:space="preserve">
+    <value>Görüşmeci Bulunamadı</value>
+  </data>
+  <data name="List_Has_No_Application_Interviewers" xml:space="preserve">
+    <value>Listelenecek Görüşmeci Yok</value>
+  </data>
+  <data name="Application_Interview_Add_Success" xml:space="preserve">
+    <value>Mülakat Ekleme Başarılı</value>
+  </data>
+  <data name="Application_Interview_Add_Fail" xml:space="preserve">
+    <value>Mülakat Ekleme Başarısız</value>
+  </data>
+  <data name="Application_Interview_Update_Success" xml:space="preserve">
+    <value>Mülakat Güncelleme Başarılı</value>
+  </data>
+  <data name="Application_Interview_Update_Fail" xml:space="preserve">
+    <value>Mülakat Güncelleme Başarısız</value>
+  </data>
+  <data name="Application_Interview_Listed_Success" xml:space="preserve">
+    <value>Mülakat Listeleme Başarılı</value>
+  </data>
+  <data name="Application_Interview_Found_Success" xml:space="preserve">
+    <value>Mülakat Görüntüleme Başarılı</value>
+  </data>
+  <data name="Application_Interview_Deleted_Success" xml:space="preserve">
+    <value>Mülakat Silme Başarılı</value>
+  </data>
+  <data name="Application_Interview_Listed_Fail" xml:space="preserve">
+    <value>Mülakat Listeleme Başarısız</value>
+  </data>
+  <data name="Application_Interview_Already_Exists" xml:space="preserve">
+    <value>Mülakat Zaten Kayıtlı</value>
+  </data>
+  <data name="Application_Interview_Not_Found" xml:space="preserve">
+    <value>Mülakat Bulunamadı</value>
+  </data>
+  <data name="List_Has_No_Application_Interviews" xml:space="preserve">
+    <value>Listelenecek Mülakat Yok</value>
+  </data>
+  <data name="Candidate_Id_Required" xml:space="preserve">
+    <value>Aday Id Boş Bırakılamaz</value>
+  </data>
+   <data name="Capability_Id_Required" xml:space="preserve">
+    <value>Yetenek Id Boş Bırakılamaz</value>
+  </data>
+  <data name="Company_Id_Required" xml:space="preserve">
+    <value>Şirket Id Boş Bırakılamaz</value>
+  </data>
+  <data name="Application_Interview_Date_Required" xml:space="preserve">
+    <value>Mülakat tarihi boş bırakılamaz.</value>
+  </data>
+  <data name="Invalid_Date_Format" xml:space="preserve">
+    <value>Geçerli bir tarih formatı giriniz.</value>
+  </data>
+  <data name="Application_Interview_Date_Within_Year" xml:space="preserve">
+    <value>Mülakat tarihi bu yıl içerisinde olmalı.</value>
+  </data>
+  <data name="Application_Interview_Status_For_Required" xml:space="preserve">
+    <value>Mülakat Durumu Boş Bırakılamaz</value>
+  </data>
+  <data name="Application_Interviewer_Name_Cannot_Be_Empty" xml:space="preserve">
+    <value>Mülakatı gerçekleştiren kişi adı boş bırakılamaz.</value>
+  </data>
+  <data name="Application_Interviewer_Name_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Mülakatı Gerçekleştiren Kişi Adı Sadece Harf İçerebilir</value>
+  </data>
+  <data name="Application_Interviewer_Surname_Cannot_Be_Empty" xml:space="preserve">
+    <value>Mülakatı Gerçekleştiren Kişi Soyadı Boş Olamaz</value>
+  </data>
+  <data name="Application_Interviewer_Surname_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Mülakatı Gerçekleştiren Kişi Soyadı Sadece Harf İçerebilir</value>
+  </data>
+  <data name="Application_Interviewer_Email_Cannot_Be_Empty" xml:space="preserve">
+    <value>Mülakatı Gerçekleştiren Kişi E-Posta Adresi Boş Olamaz</value>
+  </data>
+   <data name="Application_Interviewer_Phone_Number_Cannot_Be_Empty" xml:space="preserve">
+    <value>Telefon Numarası Boş Olamaz</value>
+  </data>
+  <data name="Please_Enter_Valid_Email" xml:space="preserve">
+    <value>Lütfen Geçerli Bir E-Posta Adresi Girin</value>
+  </data>
+    <data name="Phone_Number_Must_Be_11_Digits" xml:space="preserve">
+    <value>Telefon Numarası 11 Haneli Olmalı</value>
+  </data>
+  <data name="Phone_Number_Can_Only_Contain_Number" xml:space="preserve">
+    <value>Telefon Numarası Sadece Rakam İçerebilir</value>
+  </data>
+  <data name="Gender_Must_Be_Selected" xml:space="preserve">
+    <value>Cinsiyet Seçilmelidir</value>
+  </data>
+  <data name="Please_Select_Valid_Gender" xml:space="preserve">
+    <value>Lütfen Geçerli Bir Cinsiyet Seçin</value>
+  </data>
+  <data name="Date_Of_Birth_Cannot_Be_Empty" xml:space="preserve">
+    <value>Doğum Tarihi Boş Olamaz</value>
+  </data>
+  <data name="Please_Enter_Valid_Date_of_Birth" xml:space="preserve">
+    <value>Lütfen Geçerli Bir Doğum Tarihi Girin</value>
+  </data>
+  <data name="Address_Must_Contain_At_Least_2_Characters" xml:space="preserve">
+    <value>Adres En Az 2 Karakter İçermelidir</value>
+  </data>
+  <data name="Address_Can_Be_Up_To_200_Characters" xml:space="preserve">
+    <value>Adres En Fazla 200 Karakter Olabilir</value>
+  </data>
+  <data name="Application_Interview_Comments_Required" xml:space="preserve">
+    <value>Mülakat Yorumları Zorunludur</value>
+  </data>
+  <data name="Application_Interview_Comments_MaxLength" xml:space="preserve">
+    <value>Mülakat Yorumları en fazla 500 karakter olabilir.</value>
+  </data>
+  <data name="Application_Interview_Id_Required" xml:space="preserve">
+    <value>Mülakat Idsi Zorunludur</value>
+  </data>
+  <data name="Application_Interviewer_Id_Required" xml:space="preserve">
+    <value>Mülakatı Gerçekleştiren Kişi Idsi Zorunludur</value>
+  </data>
+  <data name="Contact_Person_Add_Fail" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Ekleme Başarısız </value>
+  </data>
+  <data name="Contact_Person_Add_Success" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Ekleme Başarılı</value>
+  </data>
+  <data name="Contact_Person_Already_Exists" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Kayıtlı</value>
+  </data>
+  <data name="Contact_Person_Deleted_Success" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Silme Başarılı</value>
+  </data>
+  <data name="Contact_Person_Found_Success" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Görüntüleme Başarılı</value>
+  </data>
+  <data name="Contact_Person_Listed_Fail" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Listeleme Başarısız</value>
+  </data>
+  <data name="Contact_Person_Listed_Success" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi listeleme Başarılı</value>
+  </data>
+  <data name="ContactPersonNameCanContainLettersAndNumberUniversityNameCanContainLettersAndNumberContactPersonNameCanContainLettersAndNumbers" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi adı harf ve rakam içerebilir</value>
+  </data>
+  <data name="Contact_Person_Name_Not_Emmpty" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi adı boş geçilemez</value>
+  </data>
+  <data name="Contact_Person_Name_Not_Exceed_256_Letters" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi adı 256 harften fazla olamaz</value>
+  </data>
+  <data name="Contact_Person_Not_Found" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Bulunamadı</value>
+  </data>
+  <data name="Contact_Person_Update_Fail" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Güncelleme Başarısız</value>
+  </data>
+  <data name="ContactPersonUpdateSuccess" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Güncelleme Başarılı</value>
+  </data>
+  <data name="Company_Add_Fail" xml:space="preserve">
+    <value>Şirket Ekleme Başarısız</value>
+  </data>
+  <data name="Company_Add_Success" xml:space="preserve">
+    <value>Şirket Ekleme Başarılı</value>
+  </data>
+  <data name="Company_Already_Exists" xml:space="preserve">
+    <value>Şirket Zaten Kayıtlı</value>
+  </data>
+  <data name="Company_Contact_Information_Add_Fail" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Ekleme Başarısız</value>
+  </data>
+  <data name="Company_Contact_Information_Add_Success" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Ekleme Başarılı</value>
+  </data>
+  <data name="Company_Contact_Information_Already_Exists" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Zaten Kayıtlı</value>
+  </data>
+  <data name="Company_Contact_Information_Deleted_Success" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Silme Başarılı</value>
+  </data>
+  <data name="Company_Contact_Information_Found_Success" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Görüntüleme Başarılı</value>
+  </data>
+  <data name="Company_Contact_Information_Listed_Fail" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Listeleme Başarısız</value>
+  </data>
+  <data name="Company_Contact_Information_Listed_Success" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Listeleme Başarılı</value>
+  </data>
+  <data name="Company_Contact_Information_Not_Found" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Bulunamadı</value>
+  </data>
+  <data name="Company_Contact_Information_Update_Fail" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Güncelleme Başarısız</value>
+  </data>
+  <data name="Company_Contact_Information_Update_Success" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Güncelleme Başarılı</value>
+  </data>
+  <data name="Company_Deleted_Success" xml:space="preserve">
+    <value>Şirket Silme Başarılı</value>
+  </data>
+  <data name="Company_Found_Success" xml:space="preserve">
+    <value>Şirket Görüntüleme Başarılı</value>
+  </data>
+  <data name="Company_Listed_Fail" xml:space="preserve">
+    <value>Şirket Listeleme Başarısız</value>
+  </data>
+  <data name="Company_Listed_Success" xml:space="preserve">
+    <value>Şirket Listeleme Başarılı</value>
+  </data>
+  <data name="Company_Not_Found" xml:space="preserve">
+    <value>Şirket Bulunamadı</value>
+  </data>
+  <data name="Company_Update_Fail" xml:space="preserve">
+    <value>Şirket Güncelleme Başarısız</value>
+  </data>
+  <data name="Company_Update_Success" xml:space="preserve">
+    <value>Şirket Güncelleme Başarılı</value>
+  </data>
+  <data name="Company_Contact_Information_Email_Not_Empty" xml:space="preserve">
+    <value>Email Bilgisi Boş Olamaz</value>
+  </data>
+  <data name="Company_Contact_Information_Address_Not_Empty" xml:space="preserve">
+    <value>Adres Bilgisi Boş Olamaz</value>
+  </data>
+  <data name="List_Has_No_Companies" xml:space="preserve">
+    <value>Listelenecek Şirket Yok</value>
+  </data>
+  <data name="List_Has_No_Company_Contact_Informations" xml:space="preserve">
+    <value>Listelenecek Şirket İletişim Bilgisi Yok</value>
+  </data>
+  <data name="List_Has_No_Student_Certificates" xml:space="preserve">
+    <value>Listelenecek Öğrenci Sertifikası Yok</value>
+  </data>
+  <data name="Student_Certificate_Id_Required" xml:space="preserve">
+    <value>Öğrenci Sertifika Id Boş Olamaz</value>
+  </data>
+  <data name="List_Has_No_Student_Departments" xml:space="preserve">
+    <value>Listelenecek Öğrenci Bölümü Yok</value>
+  </data>
+  <data name="List_Has_No_Student_Languages" xml:space="preserve">
+    <value>Listelenecek Öğrenci Yabancı Dil Yok</value>
+  </data>
+  <data name="List_Has_No_Student_Training_Programs" xml:space="preserve">
+    <value>Listelenecek Öğrenci Eğitim Programı Yok</value>
+  </data>
+  <data name="List_Has_No_Training_Program" xml:space="preserve">
+    <value>Listelenecek Eğitim Programı Yok</value>
+  </data>
+  <data name="Student_Certificate_Add_Fail" xml:space="preserve">
+    <value>Öğrenci Sertifikası Ekleme Başarısız</value>
+  </data>
+  <data name="Student_Certificate_Add_Success" xml:space="preserve">
+    <value>Öğrenci Sertifikası Ekleme Başarılı</value>
+  </data>
+  <data name="Student_Certificate_Already_Exists" xml:space="preserve">
+    <value>Öğrenci Sertifikası Zaten Kayıtlı</value>
+  </data>
+  <data name="Student_Certificate_Deleted_Success" xml:space="preserve">
+    <value>Öğrenci Sertifikası Silme Başarılı</value>
+  </data>
+  <data name="Student_Certificate_Found_Success" xml:space="preserve">
+    <value>Öğrenci Sertifikası Görüntüleme Başarılı</value>
+  </data>
+  <data name="Student_Certificate_Listed_Fail" xml:space="preserve">
+    <value>Öğrenci Sertifikası Listeleme Başarısız</value>
+  </data>
+  <data name="Student_Certificate_Listed_Success" xml:space="preserve">
+    <value>Öğrenci Sertifikası Listeleme Başarılı</value>
+  </data>
+  <data name="Student_Certificate_Not_Found" xml:space="preserve">
+    <value>Öğrenci Sertifikası Bulunamadı</value>
+  </data>
+  <data name="Student_Certificate_Update_Fail" xml:space="preserve">
+    <value>Öğrenci Sertifikası Güncelleme Başarısız</value>
+  </data>
+  <data name="Student_Certificate_Update_Success" xml:space="preserve">
+    <value>Öğrenci Sertifikası Güncelleme Başarılı</value>
+  </data>
+  <data name="Student_Department_Add_Fail" xml:space="preserve">
+    <value>Öğrenci Bölümü Ekleme Başarısız</value>
+  </data>
+  <data name="Student_Department_Add_Success" xml:space="preserve">
+    <value>Öğrenci Bölümü Ekleme Başarılı</value>
+  </data>
+  <data name="Student_Department_Already_Exists" xml:space="preserve">
+    <value>Öğrenci Bölümü Zaten Kayıtlı</value>
+  </data>
+  <data name="Student_Department_Deleted_Success" xml:space="preserve">
+    <value>Öğrenci Bölümü Silme Başarılı</value>
+  </data>
+  <data name="Student_Department_Found_Success" xml:space="preserve">
+    <value>Öğrenci Bölümü Görüntüleme Başarılı</value>
+  </data>
+  <data name="Student_Department_Listed_Fail" xml:space="preserve">
+    <value>Öğrenci Bölümü Listeleme Başarısız</value>
+  </data>
+  <data name="Student_Department_Listed_Success" xml:space="preserve">
+    <value>Öğrenci Bölümü Listeleme Başarılı</value>
+  </data>
+  <data name="Student_Department_Not_Found" xml:space="preserve">
+    <value>Öğrenci Bölümü Bulunamadı</value>
+  </data>
+  <data name="Student_Department_Update_Fail" xml:space="preserve">
+    <value>Öğrenci Bölümü Güncelleme Başarısız</value>
+  </data>
+  <data name="Student_Department_Update_Success" xml:space="preserve">
+    <value>Öğrenci Bölümü Güncelleme Başarılı</value>
+  </data>
+  <data name="Student_Department_Id_Required" xml:space="preserve">
+    <value>Öğrenci Bölümü Id Boş Olamaz</value>
+  </data>
+  <data name="Student_Language_Add_Fail" xml:space="preserve">
+    <value>Öğrenci Yabancı Dil Ekleme Başarısız</value>
+  </data>
+  <data name="Student_Language_Add_Success" xml:space="preserve">
+    <value>Öğrenci Yabancı Dil Ekleme Başarılı</value>
+  </data>
+  <data name="Student_Language_Already_Exists" xml:space="preserve">
+    <value>Öğrenci Yabancı Dil Zaten Kayıtlı</value>
+  </data>
+  <data name="Student_Language_Deleted_Success" xml:space="preserve">
+    <value>Öğrenci Yabancı Dil Silme Başarılı</value>
+  </data>
+  <data name="Student_Language_Found_Success" xml:space="preserve">
+    <value>Öğrenci Yabancı Dil Görüntüleme Başarılı</value>
+  </data>
+  <data name="Student_Language_Listed_Fail" xml:space="preserve">
+    <value>Öğrenci Yabancı Dil Listeleme Başarısız</value>
+  </data>
+  <data name="Student_Language_Listed_Success" xml:space="preserve">
+    <value>Öğrenci Yabancı Dil Listeleme Başarılı</value>
+  </data>
+  <data name="Student_Language_Not_Found" xml:space="preserve">
+    <value>Öğrenci Yabancı Dil Bulunamadı</value>
+  </data>
+  <data name="Student_Language_Update_Fail" xml:space="preserve">
+    <value>Öğrenci Yabancı Dil Güncelleme Başarısız</value>
+  </data>
+  <data name="Student_Language_Update_Success" xml:space="preserve">
+    <value>Öğrenci Yabancı Dil Güncelleme Başarılı</value>
+  </data>
+  <data name="Student_Language_Id_Required" xml:space="preserve">
+    <value>Öğrenci Yabancı Dil Id Boş Olamaz</value>
+  </data>
+  <data name="Student_Listed_Fail" xml:space="preserve">
+    <value>Öğrencileri Listeleme Başarısız</value>
+  </data>
+  <data name="Student_Training_Program_Add_Fail" xml:space="preserve">
+    <value>Öğrenci Eğitim Programı Ekleme Başarısız</value>
+  </data>
+  <data name="Student_Training_Program_Add_Success" xml:space="preserve">
+    <value>Öğrenci Eğitim Programı Ekleme Başarılı</value>
+  </data>
+  <data name="Student_Training_Program_Already_Exists" xml:space="preserve">
+    <value>Öğrenci Eğitim Programı Zaten Kayıtlı</value>
+  </data>
+  <data name="Student_Training_Program_Deleted_Success" xml:space="preserve">
+    <value>Öğrenci Eğitim Programı Silme Başarılı</value>
+  </data>
+  <data name="Student_Training_Program_Found_Success" xml:space="preserve">
+    <value>Öğrenci Eğitim Programı Görüntüleme Başarılı</value>
+  </data>
+  <data name="Student_Training_Program_Listed_Fail" xml:space="preserve">
+    <value>Öğrenci Eğitim Programı Listeleme Başarısız</value>
+  </data>
+  <data name="Student_Training_Program_Listed_Success" xml:space="preserve">
+    <value>Öğrenci Eğitim Programı Listeleme Başarılı</value>
+  </data>
+  <data name="Student_Training_Program_Not_Found" xml:space="preserve">
+    <value>Öğrenci Eğitim Programı Bulunamadı</value>
+  </data>
+  <data name="Student_Training_Program_Update_Fail" xml:space="preserve">
+    <value>Öğrenci Eğitim Programı Güncelleme Başarısız</value>
+  </data>
+  <data name="Student_Training_Program_Update_Success" xml:space="preserve">
+    <value>Öğrenci Eğitim Programı Güncelleme Başarılı</value>
+  </data>
+  <data name="Student_Training_Program_Id_Required" xml:space="preserve">
+    <value>Öğrenci Eğitim Programı Id Boş Olamaz</value>
+  </data>
+  <data name="Student_Update_Fail" xml:space="preserve">
+    <value>Öğrenci Güncelleme Başarısız</value>
+  </data>
+  <data name="Training_Program_Add_Fail" xml:space="preserve">
+    <value>Eğitim Programı Ekleme Başarısız</value>
+  </data>
+  <data name="Training_Program_Add_Success" xml:space="preserve">
+    <value>Eğitim Programı Ekleme Başarılı</value>
+  </data>
+  <data name="Training_Program_Already_Exists" xml:space="preserve">
+    <value>Eğitim Programı Zaten Kayıtlı</value>
+  </data>
+  <data name="Training_Program_Deleted_Success" xml:space="preserve">
+    <value>Eğitim Programı Silme Başarılı</value>
+  </data>
+  <data name="Training_Program_Found_Success" xml:space="preserve">
+    <value>Eğitim Programı Görüntüleme Başarısız</value>
+  </data>
+  <data name="Training_Program_Listed_Fail" xml:space="preserve">
+    <value>Eğitim Programı Listeleme Başarısız</value>
+  </data>
+  <data name="Training_Program_Listed_Success" xml:space="preserve">
+    <value>Eğitim Programı Listeleme Başarılı</value>
+  </data>
+  <data name="Training_Program_Not_Found" xml:space="preserve">
+    <value>Eğitim Programı Bulunamadı</value>
+  </data>
+  <data name="Training_Program_Update_Fail" xml:space="preserve">
+    <value>Eğitim Programı Güncelleme Başarısız</value>
+  </data>
+  <data name="Training_Program_Update_Success" xml:space="preserve">
+    <value>Eğitim Programı Güncelleme Başarılı</value>
+  </data>
+  <data name="Example_Add_Fail" xml:space="preserve">
+    <value>Örnek Ekleme Başarısız</value>
+  </data>
+  <data name="Example_Deleted_Success" xml:space="preserve">
+    <value>Örnek Silme Başarılı</value>
+  </data>
+  <data name="Example_Found_Success" xml:space="preserve">
+    <value>Örnek Görüntüleme Başarılı</value>
+  </data>
+  <data name="Example_Listed_Fail" xml:space="preserve">
+    <value>Örnek Listeleme Başarısız</value>
+  </data>
+  <data name="Example_Listed_Success" xml:space="preserve">
+    <value>Örnek Listeleme Başarılı</value>
+  </data>
+  <data name="Example_Not_Found" xml:space="preserve">
+    <value>Örnek Bulunamadı</value>
+  </data>
+  <data name="Example_Update_Fail" xml:space="preserve">
+    <value>Örnek Güncelleme Başarısız</value>
+  </data>
+  <data name="Example_Update_Success" xml:space="preserve">
+    <value>Örnek Güncelleme Başarılı</value>
+  </data>
+  <data name="Example_Id_Required" xml:space="preserve">
+    <value>Örnek Id Boş Olamaz</value>
+  </data>
+  <data name="Example_Name_Required" xml:space="preserve">
+    <value>Örnek Adı Boş Olamaz</value>
+  </data>
+  <data name="Experience_Add_Fail" xml:space="preserve">
+    <value>Deneyim Ekleme Başarısız</value>
+  </data>
+  <data name="Experience_Add_Success" xml:space="preserve">
+    <value>Deneyim Ekleme Başarılı</value>
+  </data>
+  <data name="Experience_Listed_Fail" xml:space="preserve">
+    <value>Deneyim Listeleme Başarısız</value>
+  </data>
+  <data name="Experience_Update_Fail" xml:space="preserve">
+    <value>Deneyim Güncelleme Başarısız</value>
+  </data>
+  <data name="ExperienceIdNotEmpty" xml:space="preserve">
+    <value>Deneyim Id Boş Olamaz</value>
+  </data>
+  <data name="List_Has_No_Examples" xml:space="preserve">
+    <value>Listelenecek Örnek Yok</value>
+  </data>
+  <data name="Phone_Number_Must_Be_11_Digit" xml:space="preserve">
+    <value>Telefon Numarası 11 Haneli Olmalıdır</value>
+  </data>
+  <data name="Phone_Number_Must_Be_Starting_With_0" xml:space="preserve">
+    <value>Telefon Numarası 0 ile Başlamalıdır</value>
+  </data>
+  <data name="EmployeeIdRequired" xml:space="preserve">
+    <value> Personel Id boş bırakılamaz.</value>
+  </data>
+  <data name="Employee_Add_Fail" xml:space="preserve">
+    <value>Çalışan Ekleme Başarısız</value>
+  </data>
+  <data name="Employee_Add_Success" xml:space="preserve">
+    <value>Çalışan Ekleme Başarılı</value>
+  </data>
+  <data name="Employee_Already_Exists" xml:space="preserve">
+    <value>Çalışan Zaten Kayıtlı</value>
+  </data>
+  <data name="Employee_Deleted_Success" xml:space="preserve">
+    <value>Çalışan Silme Başarılı</value>
+  </data>
+  <data name="Employee_Found_Success" xml:space="preserve">
+    <value>Çalışan Bulma Başarılı</value>
+  </data>
+  <data name="Employee_Listed_Fail" xml:space="preserve">
+    <value>Çalışanlar Listeleme Başarısız</value>
+  </data>
+  <data name="Employee_Listed_Success" xml:space="preserve">
+    <value>Çalışanlar Listeleme Başarılı</value>
+  </data>
+  <data name="Employee_Not_Found" xml:space="preserve">
+    <value>Çalışan Bulunamadı</value>
+  </data>
+  <data name="Employee_Update_Fail" xml:space="preserve">
+    <value>Çalışan Güncelleme Başarısız</value>
+  </data>
+  <data name="Employee_Update_Success" xml:space="preserve">
+    <value>Çalışan Güncelleme Başarılı</value>
+  </data>
+  <data name="List_Has_No_Employees" xml:space="preserve">
+    <value>Çalışan Listesi Yok</value>
+  </data>
+  <data name="Address_Of_Employee_Can_Be_Up_To_200_Characters" xml:space="preserve">
+    <value>Çalışan Adres En Fazla 200 Karekter Olmalıdır</value>
+  </data>
+  <data name="Address_Of_Employee_Must_Contain_At_Least_2_Characters" xml:space="preserve">
+    <value>Çalışan Adres En Az 2 Karekter İçermelidir</value>
+  </data>
+  <data name="DateOfBirth_Of_Employee_Cannot_Be_Empty" xml:space="preserve">
+    <value>Çalışan Doğum Günü Boş Bırakılamaz</value>
+  </data>
+  <data name="DateOfBirth_Of_Employee_Must_Enter_Valid" xml:space="preserve">
+    <value>Çalışan Doğum Geçerli Aralık Girilmelidir</value>
+  </data>
+  <data name="Employee_Email_Must_Be_Correct_Format" xml:space="preserve">
+    <value>Çalışan Maili Doğru Formatta Olmalıdır</value>
+  </data>
+  <data name="Employee_Email_Not_Empty" xml:space="preserve">
+    <value>Çalışan Mail Boş Bırakılamaz</value>
+  </data>
+  <data name="Employee_Gender_Must_Be_Selected" xml:space="preserve">
+    <value>Çalışan Cinsiyeti Seçilmelidir</value>
+  </data>
+  <data name="Employee_Name_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Çalışan Adı Sadece Harfleri İçermelidir</value>
+  </data>
+  <data name="Employee_Name_Not_Empty" xml:space="preserve">
+    <value>Çalışan Adı Boş Bırakılamaz</value>
+  </data>
+  <data name="Employee_PhoneNumber_Can_Only_Contain_Number" xml:space="preserve">
+    <value>Çalışan Telefon Numarası Sadece Rakamları İçermelidir</value>
+  </data>
+  <data name="Employee_Phone_Number_Must_Be_11_Digits_and_Starting_With_0" xml:space="preserve">
+    <value>Çalışan Telefon Numarası 11 Karekter Olmalıdır ve 0 ile Başlamılıdır</value>
+  </data>
+  <data name="Employee_Please_Select_Valid_Gender" xml:space="preserve">
+    <value>Çalışan Cinsiyeti Geçerli Seçilmelidir</value>
+  </data>
+  <data name="Employee_Surname_Can_Be_Up_To_30_Characters" xml:space="preserve">
+    <value>Çalışan Soyadı En Fazla 30 Karekter Olmalıdır</value>
+  </data>
+  <data name="Employee_Surname_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Çalışan Soyadı Sadece Harfleri İçermelidir</value>
+  </data>
+  <data name="Employee_Surname_Not_Empty" xml:space="preserve">
+    <value>Çalışan Soyadı Boş Bırakılamaz</value>
+  </data>
+  <data name="Employe_Name_Can_Be_Up_To_30_Characters" xml:space="preserve">
+    <value>Çalışan Adı En Fazla 30 Karekter Olmalıdır</value>
+  </data>
+  <data name="Employee_FirstName_Must_Contain_At_Least_2_Characters" xml:space="preserve">
+    <value>Çalışan Adı En Az 2 Karekter içermelidir </value>
+  </data>
+  <data name="Employee_LastName_Must_Contain_At_Least_2_Characters" xml:space="preserve">
+    <value>Çalışan Soyadı En Az 2 karekter içermelidir</value>
+  </data>
+  <data name="Contact_Person_Company_Id_Not_Empty" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Şirket Id Boş Bırakılamaz</value>
+  </data>
+  <data name="Contact_Person_Department_Not_Empty" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Departman Adı Boş Bırakılamaz</value>
+  </data>
+  <data name="Contact_Person_Department_Not_Exceed_256_Letters" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Departman Adı 256 Karekteri Geçemez</value>
+  </data>
+  <data name="Contact_Person_Email_Not_Empty" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Mail Adresi Boş Bırakılamaz</value>
+  </data>
+  <data name="Contact_Person_Id_Is_Required_For_Update" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Id güncelleme için Gereklidir</value>
+  </data>
+  <data name="Contact_Person_Phone_Number_Min_Length" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Telefon Numarası Minimum Karekter Girilmelidir.</value>
+  </data>
+  <data name="Contact_Person_Phone_Number_Not_Empty" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Telefon Numarası Boş Bırakılamaz</value>
+  </data>
+  <data name="Contact_Person_Position_Not_Empty" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Pozisyonu Boş Bırakılamaz</value>
+  </data>
+  <data name="List_Has_No_Contact_Person" xml:space="preserve">
+    <value>Bağlantılı Olduğum Kişi Listesi Yok</value>
+  </data>
+  <data name="Event_Name_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>Etkinlik Adı En Az 2 Karakterden Uzun Olmalıdır</value>
+  </data>
+  <data name="Event_Student_Add_Fail" xml:space="preserve">
+    <value>Etkinlik Öğrenci Ekleme Başarısız</value>
+  </data>
+  <data name="Event_Student_Add_Success" xml:space="preserve">
+    <value>Etkinlik Öğrenci Ekleme Başarılı</value>
+  </data>
+  <data name="Event_Student_Already_Exists" xml:space="preserve">
+    <value>Etkinlik Öğrenci Zaten Kayıtlı</value>
+  </data>
+  <data name="Event_Student_Deleted_Success" xml:space="preserve">
+    <value>Etkinlik Öğrenci Sime Başarılı</value>
+  </data>
+  <data name="Event_Student_Found_Success" xml:space="preserve">
+    <value>Etkinlik Öğrenci Görüntüleme Başarılı</value>
+  </data>
+  <data name="Event_Student_Listed_Fail" xml:space="preserve">
+    <value>Etkinlik Öğrenci Listeleme Başarısız</value>
+  </data>
+  <data name="Event_Student_Listed_Success" xml:space="preserve">
+    <value>Etkinlik Öğrenci Listeleme Başarılı</value>
+  </data>
+  <data name="Event_Student_Not_Found" xml:space="preserve">
+    <value>Etkinlik Öğrenci Bulunamadı</value>
+  </data>
+  <data name="Event_Student_Update_Fail" xml:space="preserve">
+    <value>Etkinlik Öğrenci Güncelleme Başarısız</value>
+  </data>
+  <data name="Event_Student_Update_Success" xml:space="preserve">
+    <value>Etkinlik Öğrenci Güncelleme Başarılı</value>
+  </data>
+  <data name="List_Has_No_Event_Students" xml:space="preserve">
+    <value>Listelenecek Etkinlik Öğrenci Yok</value>
+  </data>
+  <data name="Event_Student_Id_Required" xml:space="preserve">
+    <value>Etkinlik Öğrenci Id Boş Olamaz</value>
+  </data>
+  <data name="Company_Contact_Information_Address_Min_Length" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Adresi En Az 2 Karakter Olmalıdır.</value>
+  </data>
+  <data name="Company_Contact_Information_Id_Required" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Id boş olamaz</value>
+  </data>
+  <data name="Company_General_Information_Min_Length" xml:space="preserve">
+    <value>Şirket Genel Bilgisi En Az 2 Karakter Olmalıdır.</value>
+  </data>
+  <data name="Company_Location_Min_Length" xml:space="preserve">
+    <value>Şirket Lokasyonu En Az 2 Karakter Olmalıdır.</value>
+  </data>
+  <data name="Company_Name_Min_Length" xml:space="preserve">
+    <value>Şirket Adı En Az 2 Karakter Olmalıdır.</value>
+  </data>
+  <data name="Company_Sector_Min_Length" xml:space="preserve">
+    <value>Şirket Sektörü En Az 2 Karakter Olmalıdır.</value>
+  </data>
+   <data name="Company_Sector_Not_Empty" xml:space="preserve">
+    <value>Şirket Sektörü Boş Olamaz</value>
+  </data>
+  <data name="Phone_Number_Must_Be_11_Digits_and_Starting_With_0" xml:space="preserve">
+    <value>Telefon Numarası 0 ile başlamalı ve 11 karakterden oluşmalıdır.</value>
+  </data>
+  <data name="Job_Description_Can_Not_Exceed_256_Characters" xml:space="preserve">
+    <value>İş Açıklaması 256 Karakterden Fazla Olamaz</value>
+  </data>
+  <data name="Job_Description_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>İş Açıklaması 2 Karakterden Az Olamaz</value>
+  </data>
+  <data name="Job_Education_Can_Not_Exceed_256_Characters" xml:space="preserve">
+    <value>İş Eğitimi 256 Karakterden Fazla Olamaz</value>
+  </data>
+  <data name="Job_Education_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>İş Eğitimi 2 Karakterden Az Olamaz</value>
+  </data>
+  <data name="Job_Experience_Can_Not_Exceed_256_Characters" xml:space="preserve">
+    <value>İş Deneyimi 256 Karakterden Fazla Olamaz</value>
+  </data>
+  <data name="Job_Experience_Must_Be_At_Least_1_Characters" xml:space="preserve">
+    <value>İş Deneyimi 1 Karakterden Az Olamaz</value>
+  </data>
+  <data name="Job_Position_Can_Not_Exceed_100_Characters" xml:space="preserve">
+    <value>İş Pozisyonu 100 Karakterden Fazla Olamaz</value>
+  </data>
+  <data name="Job_Position_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>İş Pozisyonu 2 Karakterden Az Olamaz</value>
+  </data>
+  <data name="Contact_Person_Department_Min_Length" xml:space="preserve">
+    <value>İrtibat Kişisinin En Az 2 Karakter Olmalıdır</value>
+  </data>
+  <data name="Contact_Person_Full_Name_Min_Length" xml:space="preserve">
+    <value>İrtibat Kişisinin Tam Adı En Az 2 Karakter Olmalıdır</value>
+  </data>
+  <data name="Contact_Person_Position_Min_Length" xml:space="preserve">
+    <value>İrtibat Kişisinin Pozisyonu En Az 2 Karakter Olmalıdır</value>
+  </data>
+  <data name="Company_Contact_Information_Address_Max_Length" xml:space="preserve">
+    <value>Şirket İletişim Bilgisi Adresi 200 Karakterden Fazla Olamaz</value>
+  </data>
+  <data name="Company_General_Information_Max_Length" xml:space="preserve">
+    <value>Şirket Genel Bilgisi 200 Karakterden Fazla Olamaz</value>
+  </data>
+  <data name="Company_Location_Max_Length" xml:space="preserve">
+    <value>Şirket Lokasyonu 50 Karakterden Fazla Olamaz</value>
+  </data>
+  <data name="Company_Sector_Max_Length" xml:space="preserve">
+    <value>Şirket Sektörü 50 Karakterden Fazla Olamaz</value>
+  </data>
+  <data name="Application_Add_Fail" xml:space="preserve">
+    <value>Başvuru Ekleme Başarısız</value>
+  </data>
+  <data name="Application_Add_Success" xml:space="preserve">
+    <value>Başvuru Ekleme Başarılı</value>
+  </data>
+  <data name="Application_Already_Exists" xml:space="preserve">
+    <value>Başvuru Zaten Kayıtlı</value>
+  </data>
+  <data name="Application_Deleted_Success" xml:space="preserve">
+    <value>Başvuru Silme Başarılı</value>
+  </data>
+  <data name="Application_Found_Success" xml:space="preserve">
+    <value>Başvuru Görüntüleme Başarılı</value>
+  </data>
+  <data name="Application_Listed_Fail" xml:space="preserve">
+    <value>Başvuru Listeleme Başarısız</value>
+  </data>
+  <data name="Application_Listed_Success" xml:space="preserve">
+    <value>Başvuru Listeleme Başarılı</value>
+  </data>
+  <data name="Application_Not_Found" xml:space="preserve">
+    <value>Başvuru Bulunamadı</value>
+  </data>
+  <data name="Application_Update_Fail" xml:space="preserve">
+    <value>Başvuru Güncelleme Başarısız</value>
+  </data>
+  <data name="Application_Update_Success" xml:space="preserve">
+    <value>Başvuru Güncelleme Başarılı</value>
+  </data>
+  <data name="List_Has_No_Applications" xml:space="preserve">
+    <value>Listelenecek Başvuru Bulunamadı</value>
+  </data>
+  <data name="Application_Date_Required" xml:space="preserve">
+    <value>Başvuru Tarihi Boş Geçilemez</value>
+  </data>
+  <data name="Application_Date_Within_Year" xml:space="preserve">
+    <value>Başvuru Tarihi Bu Yıl İçerisinde Olmalı</value>
+  </data>
+  <data name="Application_Description_Max_Length" xml:space="preserve">
+    <value>Başvuru Açıklaması En Fazla 500 Karakter Olabilir</value>
+  </data>
+  <data name="Application_Status_For_Required" xml:space="preserve">
+    <value>Başvuru Durumu Boş Geçilemez</value>
+  </data>
+  <data name="Candidate_Add_Fail" xml:space="preserve">
+    <value>Aday Ekleme Başarısız</value>
+  </data>
+  <data name="Application_Id_Required" xml:space="preserve">
+    <value>Başvuru Id Boş Bırakılamaz</value>
+  </data>
+  <data name="Is_Candidate_Is_Required" xml:space="preserve">
+    <value>Aday Olma Durumu Boş Geçilemez</value>
+  </data>
+  <data name="Student_Email_Cannot_Be_Empty" xml:space="preserve">
+    <value>Öğrenci Email Boş Geçilemez</value>
+  </data>
+  <data name="Student_Name_Must_Be_At_Least_3_Characters" xml:space="preserve">
+    <value>Öğrenci Adı En Az 3 Karakter Olmalı</value>
+  </data>
+  <data name="Student_Name_Must_Be_Maximum_30_Characters" xml:space="preserve">
+    <value>Öğrenci Adı En Fazla 30 Karakter Olmalı</value>
+  </data>
+  <data name="Student_Surname_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>Öğrenci Soyadı En Az 2 Karakter Olmalı</value>
+  </data>
+  <data name="Student_Surname_Must_Be_Maximum_30_Characters" xml:space="preserve">
+    <value>Öğrenci Soyadı En Fazla 30 Karakter Olmalı</value>
+  </data>
+  <data name="Candidate_Email_Cannot_Be_Empty" xml:space="preserve">
+    <value>Aday Email Boş Geçilemez</value>
+  </data>
+  <data name="Candidate_Name_Cannot_Be_Empty" xml:space="preserve">
+    <value>Aday Adı Boş Geçilemez</value>
+  </data>
+  <data name="Candidate_Name_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Aday Adı Sadece Harf İçermelidir</value>
+  </data>
+  <data name="Candidate_Name_Must_Be_At_Least_3_Characters" xml:space="preserve">
+    <value>Aday Adı En Az 3 Karakter Olmalıdır</value>
+  </data>
+  <data name="Candidate_Name_Must_Be_Maximum_30_Characters" xml:space="preserve">
+    <value>Aday Adı En Fazla 30 Karakter Olmalıdır</value>
+  </data>
+  <data name="Candidate_Surname_Cannot_Be_Empty" xml:space="preserve">
+    <value>Aday Soyadı Boş Geçilemez</value>
+  </data>
+  <data name="Candidate_Surname_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Aday Soyadı Sadece Harf İçermelidir</value>
+  </data>
+  <data name="Candidate_Surname_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>Aday Soyadı En Az 2 Karakter Olmalıdır</value>
+  </data>
+  <data name="Candidate_Surname_Must_Be_Maximum_30_Characters" xml:space="preserve">
+    <value>Aday Soyadı En Fazla 30 Karakter Olmalıdır</value>
+  </data>
+  <data name="Mail_Send_Completed" xml:space="preserve">
+    <value>Eposta Gönderme Tamamlandı </value>
+  </data>
+  <data name="Mail_Send_Fail" xml:space="preserve">
+    <value>Eposta Gönderme Başarısız</value>
+  </data>
+  <data name="Mail_Send_Success" xml:space="preserve">
+    <value>Eposta Gönderme Başarılı</value>
+  </data>
+</root>

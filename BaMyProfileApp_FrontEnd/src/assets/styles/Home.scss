@@ -1,0 +1,143 @@
+$background-color: #f9f9f9;
+$text-color: #f1e1e1;
+$hover-shadow-color: #646cffaa;
+$react-hover-shadow-color: #61dafbaa;
+$footer-bg-color: #67c6e3;
+$footer-text-color: #4535c1;
+$footer-hover-color: #dff5ff;
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $background-color;
+}
+
+.main-layout {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.content-container {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #dff5ff;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: $footer-bg-color;
+  color: $footer-text-color;
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid $footer-text-color;
+  margin-top: auto;
+
+  .footer-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: $footer-bg-color;
+
+    .footer-section {
+      flex: 1;
+      min-width: 200px;
+      margin: 0.5rem;
+      background-color: $footer-bg-color;
+
+      h3 {
+        margin-bottom: 0.3rem;
+        color: $footer-text-color;
+        font-weight: bold;
+      }
+
+      p,
+      a {
+        color: $footer-text-color;
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: $footer-hover-color;
+        }
+      }
+
+      .social-links {
+        display: flex;
+        gap: 0.3rem;
+        margin-top: 0.3rem;
+
+        a {
+          font-size: 1.2rem;
+          color: $footer-text-color;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: $footer-hover-color;
+          }
+        }
+      }
+    }
+
+    .navigation-section {
+      .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+
+        p,
+        .nav-link {
+          color: $footer-text-color;
+          text-decoration: none;
+          padding: 0;
+          background-color: $footer-bg-color;
+          border-radius: 0;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: $footer-hover-color;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    margin-top: 0.5rem;
+    text-align: center;
+
+    p {
+      margin: 0;
+      color: $footer-text-color;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .footer-section,
+    .navigation-section {
+      margin-bottom: 0.5rem;
+    }
+
+    .navigation-section {
+      .nav-links {
+        flex-direction: column;
+        gap: 0.3rem;
+
+        .nav-link {
+          display: block;
+        }
+      }
+    }
+  }
+}

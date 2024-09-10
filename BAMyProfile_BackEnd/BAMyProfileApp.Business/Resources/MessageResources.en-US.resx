@@ -1,0 +1,1759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddressCanBeUpTo200Characters" xml:space="preserve">
+    <value>Address Can Be Up To 200 Characters</value>
+  </data>
+  <data name="AddressMustContainAtLeast2Characters" xml:space="preserve">
+    <value>Address Must Contain at Least 2 Characters</value>
+  </data>
+  <data name="DateOfBirthCannotBeEmpty" xml:space="preserve">
+    <value>Date of Birth Can Not Be Empty</value>
+  </data>
+  <data name="EmailCannotBeEmpty" xml:space="preserve">
+    <value>Email Can Not Be Empty</value>
+  </data>
+  <data name="Capability_Add_Fail" xml:space="preserve">
+    <value>Capability Add Fail</value>
+  </data>
+  <data name="Capability_Add_Success" xml:space="preserve">
+    <value>Capability Add Success</value>
+  </data>
+  <data name="Capability_Already_Exists" xml:space="preserve">
+    <value>Capability Already Exists</value>
+  </data>
+  <data name="Capability_Deleted_Success" xml:space="preserve">
+    <value>Capability Deleted Success</value>
+  </data>
+  <data name="Capability_Found_Success" xml:space="preserve">
+    <value>Capability Found Success</value>
+  </data>
+  <data name="Capability_Listed_Fail" xml:space="preserve">
+    <value>Capability Listed Fail</value>
+  </data>
+  <data name="Capability_Listed_Success" xml:space="preserve">
+    <value>Capability Listed Success</value>
+  </data>
+  <data name="CapabilityNameCannotBeEmpty" xml:space="preserve">
+    <value>Capability Name Cannot Be Empty</value>
+  </data>
+  <data name="CapabilityNameCannotExceed256Letters" xml:space="preserve">
+    <value>Capability Name Cannot Exceed 256 Letters</value>
+  </data>
+  <data name="Capability_Not_Found" xml:space="preserve">
+    <value>Capability Not Found</value>
+  </data>
+  <data name="Capability_Update_Fail" xml:space="preserve">
+    <value>Capability Update Fail</value>
+  </data>
+  <data name="Capability_Update_Success" xml:space="preserve">
+    <value>Capability Update Success</value>
+  </data>
+  <data name="Cv_Add_Fail" xml:space="preserve">
+    <value>Cv Add Fail</value>
+  </data>
+  <data name="Cv_Add_Success" xml:space="preserve">
+    <value>Cv Add Success</value>
+  </data>
+  <data name="Cv_Already_Exists" xml:space="preserve">
+    <value>Cv Already Exists</value>
+  </data>
+  <data name="Cv_Deleted_Success" xml:space="preserve">
+    <value>Cv Deleted Success</value>
+  </data>
+  <data name="CvFoundForEmail" xml:space="preserve">
+    <value>CV found for the entered email address.</value>
+  </data>
+  <data name="Cv_Found_Success" xml:space="preserve">
+    <value>Cv Found Success</value>
+  </data>
+  <data name="Cv_Listed_Fail" xml:space="preserve">
+    <value>Cv Listed Fail</value>
+  </data>
+  <data name="Cv_Listed_Success" xml:space="preserve">
+    <value>Cv Listed Success</value>
+  </data>
+  <data name="Cv_Not_Found" xml:space="preserve">
+    <value>Cv Not Found</value>
+  </data>
+  <data name="List_Has_No_Cvs" xml:space="preserve">
+    <value>List Has No Cvs</value>
+  </data>
+  <data name="CvProfileFormatMessage" xml:space="preserve">
+    <value>Cv Profile Format Message</value>
+  </data>
+  <data name="CvProfileLengthMessage" xml:space="preserve">
+    <value>Cv Profile Length Message</value>
+  </data>
+  <data name="CvProfileLengthMessageMin" xml:space="preserve">
+    <value>Cv Profile Minimum Message</value>
+  </data>
+  <data name="CvProfileNotEmptyMessage" xml:space="preserve">
+    <value>Cv Profile Not Empty Message</value>
+  </data>
+  <data name="CvTitleFormatMessage" xml:space="preserve">
+    <value>Cv Title Format Message</value>
+  </data>
+  <data name="CvTitleLengthMessage" xml:space="preserve">
+    <value>Cv Title Length Message</value>
+  </data>
+  <data name="CvTitleLengthMessageMin" xml:space="preserve">
+    <value>Cv Title Minimum Message</value>
+  </data>
+  <data name="CvTitleNotEmptyMessage" xml:space="preserve">
+    <value>Cv Title Not Empty Message</value>
+  </data>
+  <data name="Cv_Update_Fail" xml:space="preserve">
+    <value>Cv Update Fail</value>
+  </data>
+  <data name="Cv_Update_Success" xml:space="preserve">
+    <value>Cv Update Success</value>
+  </data>
+  <data name="Cv_Id_Required" xml:space="preserve">
+    <value>Cv Id Not Empty Message</value>
+  </data>
+  <data name="DepartmentAddFail" xml:space="preserve">
+    <value>Department Add Fail</value>
+  </data>
+  <data name="Department_Add_Success" xml:space="preserve">
+    <value>Department Add Success</value>
+  </data>
+  <data name="Department_Already_Exists" xml:space="preserve">
+    <value>Department Already Exists</value>
+  </data>
+  <data name="Department_Deleted_Success" xml:space="preserve">
+    <value>Department Deleted Success</value>
+  </data>
+  <data name="Department_Found_Success" xml:space="preserve">
+    <value>Department Found Success</value>
+  </data>
+  <data name="DepartmentListedFail" xml:space="preserve">
+    <value>Department Listed Fail</value>
+  </data>
+  <data name="Department_Listed_Success" xml:space="preserve">
+    <value>Department Listed Success</value>
+  </data>
+  <data name="DepartmentNameCanContainLettersAndNumbers" xml:space="preserve">
+    <value>Department Name Can Contain Letters And Numbers</value>
+  </data>
+  <data name="DepartmentNameCannotBeEmpty" xml:space="preserve">
+    <value>Department Name Cannot Be Empty</value>
+  </data>
+  <data name="DepartmentNameCannotExceed256Letters" xml:space="preserve">
+    <value>Department Name Cannot Exceed 256 Letters</value>
+  </data>
+  <data name="Department_Not_Found" xml:space="preserve">
+    <value>Department Not Found</value>
+  </data>
+  <data name="DepartmentUpdateFail" xml:space="preserve">
+    <value>Department Update Fail</value>
+  </data>
+  <data name="Department_Update_Success" xml:space="preserve">
+    <value>Department Update Success</value>
+  </data>
+  <data name="DepartmentIdRequired" xml:space="preserve">
+    <value>Department Id Not Empty</value>
+  </data>
+  <data name="Event_Add_Fail" xml:space="preserve">
+    <value>Event addition unsuccessful</value>
+  </data>
+  <data name="Event_Add_Success" xml:space="preserve">
+    <value>Event addition successful</value>
+  </data>
+  <data name="Event_Already_Exists" xml:space="preserve">
+    <value>Event already exists</value>
+  </data>
+  <data name="Event_Date_Can_Not_Be_Empty" xml:space="preserve">
+    <value>Event Date Can Not Be  Empty</value>
+  </data>
+  <data name="Event_Deleted_Success" xml:space="preserve">
+    <value>Event deleting successful</value>
+  </data>
+  <data name="Event_Found_Success" xml:space="preserve">
+    <value>Event viewing successful</value>
+  </data>
+  <data name="Event_Listed_Fail" xml:space="preserve">
+    <value>Event listing unsuccessful</value>
+  </data>
+  <data name="Event_Listed_Success" xml:space="preserve">
+    <value>Event listing successful</value>
+  </data>
+  <data name="Event_Name_Can_Contain_Letters_And_Numbers" xml:space="preserve">
+    <value>Event Name Can Contain Letters And Numbers</value>
+  </data>
+  <data name="Event_Name_Can_Not_Be_Empty" xml:space="preserve">
+    <value>Event Name Can Not Be Empty</value>
+  </data>
+   <data name="EventIdRequired" xml:space="preserve">
+    <value>Event Id can not be empty</value>
+  </data>
+  <data name="Event_Name_Can_Not_Exceed_50_Characters" xml:space="preserve">
+    <value>Event Name Can Not Exceed 50 Characters</value>
+  </data>
+  <data name="Event_Not_Found" xml:space="preserve">
+    <value>Event not found</value>
+  </data>
+  <data name="Event_Type_Can_Not_Be_Empty" xml:space="preserve">
+    <value>Event type can not be  empty</value>
+  </data>
+  <data name="Event_Update_Fail" xml:space="preserve">
+    <value>Event update unsuccessful</value>
+  </data>
+  <data name="Event_Update_Success" xml:space="preserve">
+    <value>Event update successful</value>
+  </data>
+  <data name="Certificate_Achievement_Status_Cannot_Be_Empty" xml:space="preserve">
+    <value>Certificate Achievement Status Cannot Be Empty</value>
+  </data>
+  <data name="Certificate_Add_Fail" xml:space="preserve">
+    <value>Certificate Add Fail</value>
+  </data>
+  <data name="Certificate_Add_Success" xml:space="preserve">
+    <value>Certificate Add Success</value>
+  </data>
+  <data name="Certificate_Already_Exists" xml:space="preserve">
+    <value>Certificate Already Exists</value>
+  </data>
+  <data name="Certificate_Date_Cannot_Be_Empty" xml:space="preserve">
+    <value>Certificate Date Cannot Be Empty</value>
+  </data>
+  <data name="Certificate_Deleted_Success" xml:space="preserve">
+    <value>Certificate Deleted Success</value>
+  </data>
+  <data name="Certificate_Description_Can_Contain_Letters_And_Numbers" xml:space="preserve">
+    <value>Certificate Description Can Contain Letters And Numbers</value>
+  </data>
+  <data name="Certificate_Description_Cannot_Be_Empty" xml:space="preserve">
+    <value>Certificate Description Cannot Be Empty</value>
+  </data>
+  <data name="Certificate_Description_Cannot_Exceed_256_Letters" xml:space="preserve">
+    <value>Certificate Description Cannot Exceed 256 Letters</value>
+  </data>
+  <data name="Certificate_Description_Cannot_Be_Less_Than_2_Letters" xml:space="preserve">
+    <value>Certificate Description Cannot Be Less Than 2 Letters</value>
+  </data>
+  <data name="Certificate_Found_Success" xml:space="preserve">
+    <value>Certificate Found Success</value>
+  </data>
+  <data name="Certificate_Listed_Fail" xml:space="preserve">
+    <value>Certificate Listed Fail</value>
+  </data>
+  <data name="Certificate_Listed_Success" xml:space="preserve">
+    <value>Certificate Listed Success</value>
+  </data>
+  <data name="Certificate_Name_Can_Contain_Letters_And_Numbers" xml:space="preserve">
+    <value>Certificate Name Can Contain Letters And Numbers</value>
+  </data>
+  <data name="Certificate_Name_Cannot_Be_Empty" xml:space="preserve">
+    <value>Certificate Name Cannot Be Empty</value>
+  </data>
+  <data name="Certificate_Name_Cannot_Exceed_256_Letters" xml:space="preserve">
+    <value>Certificate Name Cannot Exceed 256 Letters</value>
+  </data>
+  <data name="Certificate_Name_Cannot_Be_Less_Than_2_Letters" xml:space="preserve">
+    <value>Certificate Name Cannot Be Less Than 2 Letters</value>
+  </data>
+  <data name="Certificate_Not_Found" xml:space="preserve">
+    <value>Certificate Not Found</value>
+  </data>
+  <data name="Certificate_Update_Fail" xml:space="preserve">
+    <value>Certificate Update Fail</value>
+  </data>
+  <data name="Certificate_Update_Success" xml:space="preserve">
+    <value>Certificate Update Success</value>
+  </data>
+  <data name="CompanyNameFormat" xml:space="preserve">
+    <value>Company Name format is invalid</value>
+  </data>
+  <data name="Company_Name_Max_Length" xml:space="preserve">
+    <value>Company Name Cannot Exceed 50 Characters</value>
+  </data>
+  <data name="Company_Name_Not_Empty" xml:space="preserve">
+    <value>Company Name Cannot Be Empty</value>
+  </data>
+  <data name="Company_Sector_Not_Empty" xml:space="preserve">
+    <value>Company Sector Cannot Be Empty</value>
+  </data>
+  <data name="Company_General_Information_Not_Empty" xml:space="preserve">
+    <value>Company General Information Cannot Be Empty</value>
+  </data>
+   <data name="Company_Location_Not_Empty" xml:space="preserve">
+    <value>Company Location Cannot Be Empty</value>
+  </data>
+   <data name="Company_Contact_Information_Phone_Number_Not_Empty" xml:space="preserve">
+    <value>Company Contact Information Phone Number Not Empty</value>
+  </data>
+  <data name="DateOfEndMustBeAfterStart" xml:space="preserve">
+    <value>Date of End must be after Date of Start</value>
+  </data>
+  <data name="DateOfStartNotEmpty" xml:space="preserve">
+    <value>Date of Start cannot be empty</value>
+  </data>
+  <data name="DescriptionNotEmpty" xml:space="preserve">
+    <value>Description cannot be empty</value>
+  </data>
+  <data name="Example_Add_Success" xml:space="preserve">
+    <value>Example Add Success Localization</value>
+  </data>
+  <data name="Example_Already_Exists" xml:space="preserve">
+    <value>Example Already Exists</value>
+  </data>
+  <data name="Interview_Add_Fail" xml:space="preserve">
+    <value>Failed to add interview.</value>
+  </data>
+  <data name="Interview_Add_Success" xml:space="preserve">
+    <value>Interview added successfully.</value>
+  </data>
+  <data name="Interview_Already_Exists" xml:space="preserve">
+    <value>Interview already exists.</value>
+  </data>
+  <data name="InterviewDateRequired" xml:space="preserve">
+    <value>Interview date cannot be empty.</value>
+  </data>
+  <data name="InterviewDateWithinYear" xml:space="preserve">
+    <value>Interview date must be within the current year.</value>
+  </data>
+  <data name="Interview_Deleted_Success" xml:space="preserve">
+    <value>Interview deleted successfully.</value>
+  </data>
+  <data name="InterviewerNameRequired" xml:space="preserve">
+    <value>Interviewer name cannot be empty.</value>
+  </data>
+  <data name="Interview_Found_Success" xml:space="preserve">
+    <value>Interview found successfully.</value>
+  </data>
+  <data name="InterviewIdRequired" xml:space="preserve">
+    <value>Interview Id cannot be empty.</value>
+  </data>
+  <data name="Faculty_Id_Required" xml:space="preserve">
+    <value>Faculty Id cannot be empty.</value>
+  </data>
+  
+  <data name="Interview_Listed_Fail" xml:space="preserve">
+    <value>Failed to list interviews.</value>
+  </data>
+  <data name="Interview_Listed_Success" xml:space="preserve">
+    <value>Interviews listed successfully.</value>
+  </data>
+  <data name="InterviewLocationRequired" xml:space="preserve">
+    <value>Interview location cannot be empty.</value>
+  </data>
+  <data name="InterviewNameMaxLength" xml:space="preserve">
+    <value>Interview name can be maximum 50 characters.</value>
+  </data>
+  <data name="InterviewNameRequired" xml:space="preserve">
+    <value>Interview name cannot be empty.</value>
+  </data>
+  <data name="InterviewNotesMaxLength" xml:space="preserve">
+    <value>Interview notes can be maximum 500 characters.</value>
+  </data>
+  <data name="InterviewNotesRequired" xml:space="preserve">
+    <value>Interview notes cannot be empty.</value>
+  </data>
+  <data name="Interview_Not_Found" xml:space="preserve">
+    <value>Interview not found.</value>
+  </data>
+  <data name="Interview_Update_Fail" xml:space="preserve">
+    <value>Failed to update interview.</value>
+  </data>
+  <data name="Interview_Update_Success" xml:space="preserve">
+    <value>Interview updated successfully.</value>
+  </data>
+  <data name="InvalidDateFormat" xml:space="preserve">
+    <value>Please enter a valid date format.</value>
+  </data>
+  <data name="List_Has_No_Interviews" xml:space="preserve">
+    <value>There are no interviews to list.</value>
+  </data>
+  <data name="GenderMustBeSelected" xml:space="preserve">
+    <value>Gender Must Be Selected</value>
+  </data>
+  <data name="List_Has_No_Student" xml:space="preserve">
+    <value>List Has No Student</value>
+  </data>
+  <data name="LanguageLevelCannotBeEmpty" xml:space="preserve">
+    <value>Language Level Cannot Be Empty</value>
+  </data>
+  <data name="LanguageLevelCanOnlyContainNumbers" xml:space="preserve">
+    <value>Language Level Can Only Contain Numbers</value>
+  </data>
+  <data name="LanguageNameCannotBeEmpty" xml:space="preserve">
+    <value>Language Name Cannot Be Empty</value>
+  </data>
+  <data name="LanguageNameCannotExceed255Letters" xml:space="preserve">
+    <value>Language Name Cannot Exceed 255 Letters</value>
+  </data>
+   <data name="LanguageNameCannotExceed2Letters" xml:space="preserve">
+    <value>Language name FirstName Must Contain At Least 2 Characters</value>
+  </data>
+  <data name="LanguageNameCanOnlyContainLetters" xml:space="preserve">
+    <value>Language Name Can Only Contain Letters</value>
+  </data>
+  <data name="Languages_Add_Fail" xml:space="preserve">
+    <value>Languages Add Fail</value>
+  </data>
+  <data name="Languages_Add_Success" xml:space="preserve">
+    <value>Languages Add Success</value>
+  </data>
+  <data name="Languages_Already_Exists" xml:space="preserve">
+    <value>Languages Already Exists</value>
+  </data>
+  <data name="Languages_Deleted_Success" xml:space="preserve">
+    <value>Languages Deleted Success</value>
+  </data>
+  <data name="Languages_Found_Success" xml:space="preserve">
+    <value>Languages Found Success</value>
+  </data>
+  <data name="Languages_Listed_Fail" xml:space="preserve">
+    <value>Languages Listed Fail</value>
+  </data>
+  <data name="Languages_Listed_Success" xml:space="preserve">
+    <value>Languages Listed Success</value>
+  </data>
+  <data name="Languages_Not_Found" xml:space="preserve">
+    <value>Languages Not Found</value>
+  </data>
+  <data name="Languages_Update_Fail" xml:space="preserve">
+    <value>Languages Update Fail</value>
+  </data>
+  <data name="Languages_Update_Success" xml:space="preserve">
+    <value>Languages Update Success</value>
+  </data>
+  <data name="List_Has_No_Languages" xml:space="preserve">
+    <value>List Has No Languages</value>
+  </data>
+  <data name="Languages_Id_Required" xml:space="preserve">
+    <value>Language Id Required</value>
+  </data>
+  <data name="List_Has_No_Departments" xml:space="preserve">
+    <value>List Has No Departments</value>
+  </data>
+  <data name="List_Has_No_Events" xml:space="preserve">
+    <value>No events to list</value>
+  </data>
+  <data name="Faculty_Add_Fail" xml:space="preserve">
+    <value>Faculty Add Fail</value>
+  </data>
+  <data name="Faculty_Add_Success" xml:space="preserve">
+    <value>Faculty Add Success</value>
+  </data>
+  <data name="Faculty_Already_Exists" xml:space="preserve">
+    <value>Faculty Already Exists</value>
+  </data>
+  <data name="Faculty_Deleted_Success" xml:space="preserve">
+    <value>Faculty Deleted Success</value>
+  </data>
+  <data name="Faculty_Found_Success" xml:space="preserve">
+    <value>Faculty Found Success</value>
+  </data>
+  <data name="Faculty_Listed_Fail" xml:space="preserve">
+    <value>Faculty Listed Fail</value>
+  </data>
+  <data name="Faculty_Listed_Success" xml:space="preserve">
+    <value>Faculty Listed Success</value>
+  </data>
+  <data name="FacultyNameCanContainLettersAndNumbers" xml:space="preserve">
+    <value>Faculty Name Can Contain Letters And Numbers</value>
+  </data>
+  <data name="FacultyNameCannotBeEmpty" xml:space="preserve">
+    <value>Faculty Name Can not Be Empty</value>
+  </data>
+  <data name="FacultyNameCannotExceed256Letters" xml:space="preserve">
+    <value>Faculty Name Can not Exceed 256 Letters</value>
+  </data>
+  <data name="Faculty_Not_Found" xml:space="preserve">
+    <value>Faculty Not Found</value>
+  </data>
+  <data name="Faculty_Update_Fail" xml:space="preserve">
+    <value>Faculty Update Fail</value>
+  </data>
+  <data name="Faculty_Update_Success" xml:space="preserve">
+    <value>Faculty Update Success</value>
+  </data>
+  <data name="List_Has_No_Faculties" xml:space="preserve">
+    <value>List Has No Faculties</value>
+  </data>
+  <data name="List_Has_No_Certificates" xml:space="preserve">
+    <value>List Has No Certificates</value>
+  </data>
+  <data name="Experience_Already_Exists" xml:space="preserve">
+    <value>Experience already exists</value>
+  </data>
+  <data name="Experience_Deleted_Success" xml:space="preserve">
+    <value>Experience deleted successfully</value>
+  </data>
+  <data name="Experience_Found_Success" xml:space="preserve">
+    <value>Experience found successfully</value>
+  </data>
+  <data name="Experience_Listed_Success" xml:space="preserve">
+    <value>Experience listed successfully</value>
+  </data>
+  <data name="Experience_Not_Found" xml:space="preserve">
+    <value>Experience not found</value>
+  </data>
+  <data name="Experience_Update_Success" xml:space="preserve">
+    <value>Experience updated successfully</value>
+  </data>
+  <data name="List_Has_No_Experiences" xml:space="preserve">
+    <value>List has no experiences</value>
+  </data>
+  <data name="ListHasNoUniversities" xml:space="preserve">
+    <value>List Has No Universities</value>
+  </data>
+  <data name="PhoneNumberCanOnlyContainNumber" xml:space="preserve">
+    <value>Phone Number Can Only Contain Number</value>
+  </data>
+  <data name="PhoneNumberMustBe11DigitsandStartingWith0" xml:space="preserve">
+    <value>Phone Number Must Be 11 Digits and Starting With 0</value>
+  </data>
+  <data name="PleaseEnterValidDateofBirth" xml:space="preserve">
+    <value>Please Enter a Valid Date of Birth</value>
+  </data>
+  <data name="PleaseEnterValidEmail" xml:space="preserve">
+    <value>Please Enter a Valid Email. e.g. : student@email.com</value>
+  </data>
+  <data name="PleaseSelectValidGender" xml:space="preserve">
+    <value>Please Select a Valid Gender</value>
+  </data>
+  <data name="Student_Add_Fail" xml:space="preserve">
+    <value>Student Add Fail</value>
+  </data>
+  <data name="Student_Add_Success" xml:space="preserve">
+    <value>Student Add Success</value>
+  </data>
+  <data name="Student_Already_Exists" xml:space="preserve">
+    <value>Student Already Exists</value>
+  </data>
+  <data name="Student_Deleted_Success" xml:space="preserve">
+    <value>Student Deleted Success</value>
+  </data>
+  <data name="Student_Found_Success" xml:space="preserve">
+    <value>Student Found Success</value>
+  </data>
+  <data name="Student_Listed_Success" xml:space="preserve">
+    <value>Student Listed Success</value>
+  </data>
+  <data name="Student_Name_Cannot_Be_Empty" xml:space="preserve">
+    <value>Student Name Can Not Be Empty</value>
+  </data>
+  <data name="Student_Name_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Student Name Can Only Contain Letters</value>
+  </data>
+  <data name="Student_Not_Found" xml:space="preserve">
+    <value>Student Not Found</value>
+  </data>
+  <data name="Student_Surname_Cannot_Be_Empty" xml:space="preserve">
+    <value>Student Surname Can Not Be Empty</value>
+  </data>
+  <data name="Student_Surname_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Student Surname Can Only Contain Letters</value>
+  </data>
+  <data name="Student_Update_Success" xml:space="preserve">
+    <value>Student Update Success</value>
+  </data>
+  <data name="PositionInterviewedForRequired" xml:space="preserve">
+    <value>Position interviewed for cannot be empty.</value>
+  </data>
+  <data name="Student_Id_Required" xml:space="preserve">
+    <value>Student Id cannot be empty.</value>
+  </data>
+  <data name="PositionMaxLength" xml:space="preserve">
+    <value>Position cannot exceed 50 characters</value>
+  </data>
+  <data name="PositionNotEmpty" xml:space="preserve">
+    <value>Position cannot be empty</value>
+  </data>
+  <data name="University_Add_Fail" xml:space="preserve">
+    <value>University Add Fail</value>
+  </data>
+  <data name="University_Add_Success" xml:space="preserve">
+    <value>University Add Success</value>
+  </data>
+  <data name="University_Already_Exists" xml:space="preserve">
+    <value>University Already Exists</value>
+  </data>
+  <data name="University_Deleted_Success" xml:space="preserve">
+    <value>University Deleted Success</value>
+  </data>
+  <data name="University_Found_Success" xml:space="preserve">
+    <value>University Found Success</value>
+  </data>
+  <data name="University_Listed_Fail" xml:space="preserve">
+    <value>University Listed Fail</value>
+  </data>
+  <data name="University_Listed_Success" xml:space="preserve">
+    <value>University Listed Success</value>
+  </data>
+  <data name="UniversityNameCanContainLettersAndNumbers" xml:space="preserve">
+    <value>University Name Can Contain Letters And Numbers</value>
+  </data>
+  <data name="UniversityNameCannotBeEmpty" xml:space="preserve">
+    <value>University Name Cannot Be Empty</value>
+  </data>
+  <data name="UniversityNameCannotExceed256Letters" xml:space="preserve">
+    <value>University Name Cannot Exceed 256 Letters</value>
+  </data>
+  <data name="University_Not_Found" xml:space="preserve">
+    <value>University Not Found</value>
+  </data>
+  <data name="University_Update_Fail" xml:space="preserve">
+    <value>University Update Fail</value>
+  </data>
+  <data name="University_Update_Success" xml:space="preserve">
+    <value>University Update Success</value>
+  </data>
+  <data name="UniversityNameCannotExceed256Letters" xml:space="preserve">
+    <value>University Name Cannot Exceed 256 Letters</value>
+  </data>
+  <data name="UniversityNamecannotbelessthan2letters" xml:space="preserve">
+    <value>University Name cannot be less than 2 letters</value>
+  </data>
+  <data name="TrainingHoursCannotBeEmpty" xml:space="preserve">
+    <value>Training Hours Cannot Be Empty</value>
+  </data>
+  <data name="Training_Program_Add_Success" xml:space="preserve">
+    <value>Training Program Add Success</value>
+  </data>
+  <data name="Training_Program_Already_Exists" xml:space="preserve">
+    <value>Training Program Already Exists</value>
+  </data>
+  <data name="Training_Program_Deleted_Success" xml:space="preserve">
+    <value>Training Program Deleted Success</value>
+  </data>
+  <data name="Training_Program_Found_Success" xml:space="preserve">
+    <value>Training Program Found Success</value>
+  </data>
+  <data name="Training_Program_Listed_Success" xml:space="preserve">
+    <value>Training Program Listed Success</value>
+  </data>
+  <data name="List_Has_No_Training_Program" xml:space="preserve">
+    <value>Training Program List Has No</value>
+  </data>
+  <data name="Training_Program_Not_Found" xml:space="preserve">
+    <value>Training Program Not Found</value>
+  </data>
+  <data name="TrainingProgramTitleCannotBeEmpty" xml:space="preserve">
+    <value>Training Program Title Cannot Be Empty</value>
+  </data>
+   <data name="Contentcannotbelessthan2Letters" xml:space="preserve">
+    <value>Content cannot be less than 2 Letters</value>
+  </data>
+  <data name="TrainingProgramTitleCannotExceed50Letters" xml:space="preserve">
+    <value>Training Program Title Cannot Exceed 50 Letters</value>
+  </data>
+  <data name="TrainingProgramTitlecannotbelessthan2letters" xml:space="preserve">
+    <value>Training Program Title cannot be less than 2 letters</value>
+  </data>
+  <data name="Training_Program_Update_Success" xml:space="preserve">
+    <value>Training Program Update Success</value>
+  </data>
+  <data name="List_Has_No_References" xml:space="preserve">
+    <value>List Has No References</value>
+  </data>
+  <data name="Reference_Add_Fail" xml:space="preserve">
+    <value>Reference Add Fail</value>
+  </data>
+  <data name="Reference_Add_Success" xml:space="preserve">
+    <value>Reference Add Success</value>
+  </data>
+  <data name="ReferenceAdressCannotBeLeftBlank" xml:space="preserve">
+    <value>Reference Adress Cannot Be Left Blank</value>
+  </data>
+  <data name="ReferenceAdressMustBeAtLeastTwoCharacters" xml:space="preserve">
+    <value>Reference Adress Must Be At Least Two Characters</value>
+  </data>
+  <data name="Reference_Already_Exists" xml:space="preserve">
+    <value>Reference Already Exists</value>
+  </data>
+  <data name="ReferenceCompanyCannotBeLeftBlank" xml:space="preserve">
+    <value>Reference Company Cannot Be Left Blank</value>
+  </data>
+  <data name="Reference_Deleted_Success" xml:space="preserve">
+    <value>Reference Deleted Success</value>
+  </data>
+  <data name="Reference_Found_Success" xml:space="preserve">
+    <value>Reference Found Success</value>
+  </data>
+  <data name="ReferenceIdNotEmpty" xml:space="preserve">
+    <value>Reference Id Not Empty</value>
+  </data>
+  <data name="ReferenceInformationCannotBeLeftBlank" xml:space="preserve">
+    <value>Reference Information Cannot Be Left Blank</value>
+  </data>
+  <data name="Reference_Listed_Fail" xml:space="preserve">
+    <value>Reference Listed Fail</value>
+  </data>
+  <data name="Reference_Listed_Success" xml:space="preserve">
+    <value>Reference Listed Success</value>
+  </data>
+  <data name="ReferenceNameMustConsistOfLetersOnly" xml:space="preserve">
+    <value>Reference Name Must Consist Of Leters Only</value>
+  </data>
+  <data name="ReferenceNameNotEmptyMessage" xml:space="preserve">
+    <value>Reference Name Not Empty Message</value>
+  </data>
+  <data name="Reference_Not_Found" xml:space="preserve">
+    <value>Reference Not Found</value>
+  </data>
+  <data name="Reference_Update_Fail" xml:space="preserve">
+    <value>Reference Update Fail</value>
+  </data>
+  <data name="Reference_Update_Success" xml:space="preserve">
+    <value>Reference Update Success</value>
+  </data>
+  <data name="Candidate_Add_Success" xml:space="preserve">
+    <value>Candidate Add Success</value>
+  </data>
+  <data name="Candidate_Already_Exists" xml:space="preserve">
+    <value>Candidate Already Exists</value>
+  </data>
+  <data name="Candidate_Deleted_Success" xml:space="preserve">
+    <value>Candidate Deleted Success</value>
+  </data>
+  <data name="Candidate_Found_Success" xml:space="preserve">
+    <value>Candidate Found Success</value>
+  </data>
+  <data name="Candidate_Listed_Success" xml:space="preserve">
+    <value>Candidate Listed Success</value>
+  </data>
+  <data name="Candidate_Not_Found" xml:space="preserve">
+    <value>Candidate Not Found</value>
+  </data>
+  <data name="Candidate_Update_Success" xml:space="preserve">
+    <value>Candidate Update Success</value>
+  </data>
+  <data name="Job_Status_Not_Empty" xml:space="preserve">
+    <value>Job status can not empty</value>
+  </data>
+  <data name="Benefit_Id_Required" xml:space="preserve">
+    <value>Benefit Id can not be empty</value>
+  </data>
+  <data name="BenefitNameFormat" xml:space="preserve">
+    <value>Benefit name must be only contain letters and numbers.</value>
+  </data>
+  <data name="Benefit_Name_Not_Empty" xml:space="preserve">
+    <value>Benefit name can not be empty</value>
+  </data>
+  <data name="Job_Description_Not_Empty" xml:space="preserve">
+    <value>Job description can not be empty</value>
+  </data>
+  <data name="Job_Education_Format" xml:space="preserve">
+    <value>Required education level must be only contain letters and numbers.</value>
+  </data>
+  <data name="Job_Education_Not_Empty" xml:space="preserve">
+    <value>Required education level can not be empty</value>
+  </data>
+  <data name="Job_Experience_Format" xml:space="preserve">
+    <value>Required experience must be only contain letters and numbers.</value>
+  </data>
+  <data name="Job_Experience_Not_Empty" xml:space="preserve">
+    <value>Required experience can not be empty</value>
+  </data>
+  <data name="Job_Id_Required" xml:space="preserve">
+    <value>Job Id can not be empty</value>
+  </data>
+  <data name="Job_Position_Not_Empty" xml:space="preserve">
+    <value>Job position can not be empty</value>
+  </data>
+  <data name="Job_Salary_Greater_Than_Zero" xml:space="preserve">
+    <value>Salary must be greater than zero</value>
+  </data>
+  <data name="Job_Salary_Not_Empty" xml:space="preserve">
+    <value>Salary can not be empty</value>
+  </data>
+  <data name="Job_Work_Location_Not_Empty" xml:space="preserve">
+    <value>Work location can not be empty</value>
+  </data>
+  <data name="Skill_Id_Required" xml:space="preserve">
+    <value>Skill Id can not be empty</value>
+  </data>
+  <data name="SkillNameFormat" xml:space="preserve">
+    <value>Skill name must be only contain letters and numbers.</value>
+  </data>
+  <data name="Skill_Name_Not_Empty" xml:space="preserve">
+    <value>Skill name can not be empty</value>
+  </data>
+  <data name="Benefit_Add_Success" xml:space="preserve">
+    <value>Benefit Add Success</value>
+  </data>
+  <data name="Benefit_Already_Exists" xml:space="preserve">
+    <value>Benefit Already Exists</value>
+  </data>
+  <data name="Benefit_Deleted_Success" xml:space="preserve">
+    <value>Benefit Deleted Success</value>
+  </data>
+  <data name="Benefit_Found_Success" xml:space="preserve">
+    <value>Benefit Found Success</value>
+  </data>
+  <data name="Benefit_Listed_Success" xml:space="preserve">
+    <value>Benefit Listed Success</value>
+  </data>
+  <data name="Benefit_Not_Found" xml:space="preserve">
+    <value>Benefit Not Found</value>
+  </data>
+  <data name="Benefit_Update_Success" xml:space="preserve">
+    <value>Benefit Update Success</value>
+  </data>
+  <data name="Job_Add_Success" xml:space="preserve">
+    <value>Job Add Success</value>
+  </data>
+  <data name="Job_Deleted_Success" xml:space="preserve">
+    <value>Job Deleted Success</value>
+  </data>
+  <data name="Job_Found_Success" xml:space="preserve">
+    <value>Job Found Success</value>
+  </data>
+  <data name="Job_Listed_Success" xml:space="preserve">
+    <value>Job Listed Success</value>
+  </data>
+  <data name="Job_Listed_Fail" xml:space="preserve">
+    <value>Job Listed Fail</value>
+  </data>
+  <data name="List_Has_No_Jobs" xml:space="preserve">
+    <value>List Has No Jobs</value>
+  </data>
+  <data name="Job_Add_Fail" xml:space="preserve">
+    <value>Job Add Fail</value>
+  </data>
+  <data name="Job_Update_Success" xml:space="preserve">
+    <value>Job Update Success</value>
+  </data>
+  <data name="Job_Update_Fail" xml:space="preserve">
+    <value>Job Update Fail</value>
+  </data>
+  <data name="Job_Not_Found" xml:space="preserve">
+    <value>Job Not Found</value>
+  </data>
+  <data name="Job_Already_Exists" xml:space="preserve">
+    <value>Job Already Exists</value>
+  </data>
+  <data name="List_Has_No_Benefits" xml:space="preserve">
+    <value>List Has No Benefits</value>
+  </data>
+  <data name="List_Has_No_Skills" xml:space="preserve">
+    <value>Skill Has No Jobs</value>
+  </data>
+  <data name="Skill_Add_Success" xml:space="preserve">
+    <value>Skill Add Success</value>
+  </data>
+  <data name="Skill_Already_Exists" xml:space="preserve">
+    <value>Skill Already Exists</value>
+  </data>
+  <data name="Skill_Deleted_Success" xml:space="preserve">
+    <value>Skill Deleted Success</value>
+  </data>
+  <data name="Skill_Found_Success" xml:space="preserve">
+    <value>Skill Found Success</value>
+  </data>
+  <data name="Skill_Listed_Success" xml:space="preserve">
+    <value>Skill Listed Success</value>
+  </data>
+  <data name="Skill_Not_Found" xml:space="preserve">
+    <value>Skill Not Found</value>
+  </data>
+  <data name="Skill_Update_Success" xml:space="preserve">
+    <value>Skill Update Success</value>
+  </data>
+  <data name="Application_Interviewer_Add_Success" xml:space="preserve">
+    <value>Application Interviewer Add Success</value>
+  </data>
+  <data name="Application_Interviewer_Add_Fail" xml:space="preserve">
+    <value>Application Interviewer Add Fail</value>
+  </data>
+  <data name="Application_Interviewer_Update_Success" xml:space="preserve">
+    <value>Application Interviewer Update Success</value>
+  </data>
+  <data name="Application_Interviewer_Update_Fail" xml:space="preserve">
+    <value>Application Interviewer Update Fail</value>
+  </data>
+  <data name="Application_Interviewer_Listed_Success" xml:space="preserve">
+    <value>Application Interviewer Listed Success</value>
+  </data>
+  <data name="Application_Interviewer_Found_Success" xml:space="preserve">
+    <value>Application Interviewer Found Success</value>
+  </data>
+  <data name="Application_Interviewer_Deleted_Success" xml:space="preserve">
+    <value>Application Interviewer Deleted Success</value>
+  </data>
+  <data name="Application_Interviewer_Listed_Fail" xml:space="preserve">
+    <value>Application Interviewer Listed Fail</value>
+  </data>
+  <data name="Application_Interviewer_Already_Exists" xml:space="preserve">
+    <value>Application Interviewer Already Exists</value>
+  </data>
+  <data name="Application_Interviewer_Not_Found" xml:space="preserve">
+    <value>Application Interviewer Not Found</value>
+  </data>
+  <data name="List_Has_No_Application_Interviewers" xml:space="preserve">
+    <value>List Has No Application Interviewers</value>
+  </data>
+  <data name="Application_Interview_Add_Success" xml:space="preserve">
+    <value>Application Interview Add Success</value>
+  </data>
+  <data name="Application_Interview_Add_Fail" xml:space="preserve">
+    <value>Application Interview Add Fail</value>
+  </data>
+  <data name="Application_Interview_Update_Success" xml:space="preserve">
+    <value>Application Interview Update Success</value>
+  </data>
+  <data name="Application_Interview_Update_Fail" xml:space="preserve">
+    <value>Application Interview Update Fail</value>
+  </data>
+  <data name="Application_Interview_Listed_Success" xml:space="preserve">
+    <value>Application Interview Listed Success</value>
+  </data>
+  <data name="Application_Interview_Found_Success" xml:space="preserve">
+    <value>Application Interview Found Success</value>
+  </data>
+  <data name="Application_Interview_Deleted_Success" xml:space="preserve">
+    <value>Application Interview Deleted Success</value>
+  </data>
+  <data name="Application_Interview_Listed_Fail" xml:space="preserve">
+    <value>Application Interview Listed Fail</value>
+  </data>
+  <data name="Application_Interview_Already_Exists" xml:space="preserve">
+    <value>Application Interview Already Exists</value>
+  </data>
+  <data name="Application_Interview_Not_Found" xml:space="preserve">
+    <value>Application Interview Not Found</value>
+  </data>
+  <data name="List_Has_No_Application_Interviews" xml:space="preserve">
+    <value>List Has No Application Interviews</value>
+  </data>
+  <data name="Candidate_Id_Required" xml:space="preserve">
+    <value>Candidate Id Cannot Be Empty</value>
+  </data>
+  <data name="Company_Id_Required" xml:space="preserve">
+    <value>Company Id Cannot Be Empty</value>
+  </data>
+  <data name="Application_Interview_Date_Required" xml:space="preserve">
+    <value>Application Interview Date Required</value>
+  </data>
+  <data name="Invalid_Date_Format" xml:space="preserve">
+    <value>Please enter a valid date format.</value>
+  </data>
+  <data name="Application_Interview_Date_Within_Year" xml:space="preserve">
+    <value>Application Interview date must be within the current year.</value>
+  </data>
+  <data name="Application_Interview_Status_For_Required" xml:space="preserve">
+    <value>Application Interview Status Cannot Be Empty</value>
+  </data>
+  <data name="Application_Interviewer_Name_Cannot_Be_Empty" xml:space="preserve">
+    <value>Application Interviewer Name Cannot Be Empty</value>
+  </data>
+  <data name="Application_Interviewer_Name_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Application Interviewer Name Can Only Contain Letters</value>
+  </data>
+  <data name="Application_Interviewer_Surname_Cannot_Be_Empty" xml:space="preserve">
+    <value>Application Interviewer Surname Cannot Be Empty</value>
+  </data>
+  <data name="Application_Interviewer_Surname_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Application Interviewer Surname Can Only Contain Letters</value>
+  </data>
+  <data name="Application_Interviewer_Email_Cannot_Be_Empty" xml:space="preserve">
+    <value>Application Interviewer Email Cannot Be Empty</value>
+  </data>
+  <data name="Please_Enter_Valid_Email" xml:space="preserve">
+    <value>Please Enter a Valid Email.</value>
+  </data>
+  <data name="Phone_Number_Must_Be_11_Digits_and_Starting_With_0" xml:space="preserve">
+    <value>Phone Number Must Be 11 Digits and Starting With 0</value>
+  </data>
+  <data name="Phone_Number_Can_Only_Contain_Number" xml:space="preserve">
+    <value>Phone Number Can Only Contain Number</value>
+  </data>
+  <data name="Gender_Must_Be_Selected" xml:space="preserve">
+    <value>Gender Must Be Selected</value>
+  </data>
+  <data name="Please_Select_Valid_Gender" xml:space="preserve">
+    <value>Please Select a Valid Gender</value>
+  </data>
+  <data name="Date_Of_Birth_Cannot_Be_Empty" xml:space="preserve">
+    <value>Date of Birth Can Not Be Empty</value>
+  </data>
+  <data name="Please_Enter_Valid_Date_of_Birth" xml:space="preserve">
+    <value>Please Enter a Valid Date of Birth</value>
+  </data>
+  <data name="Address_Must_Contain_At_Least_2_Characters" xml:space="preserve">
+    <value>Address Must Contain at Least 2 Characters</value>
+  </data>
+  <data name="Address_Can_Be_Up_To_200_Characters" xml:space="preserve">
+    <value>Address Can Be Up To 200 Characters</value>
+  </data>
+  <data name="Application_Interview_Comments_Required" xml:space="preserve">
+    <value>Application Interview Comments Required</value>
+  </data>
+  <data name="Application_Interview_Comments_MaxLength" xml:space="preserve">
+    <value>Application Interview comments can be maximum 500 characters.</value>
+  </data>
+  <data name="Application_Interview_Id_Required" xml:space="preserve">
+    <value>Application Interview Id Required</value>
+  </data>
+  <data name="Application_Interviewer_Id_Required" xml:space="preserve">
+    <value>Application Interviewer Id Required</value>
+  </data>
+  <data name="Contact_Person_Already_Exists" xml:space="preserve">
+    <value>ContactPerson Already Exists</value>
+  </data>
+  <data name="Contact_Person_Add_Fail" xml:space="preserve">
+    <value>ContactPerson Add Fail</value>
+  </data>
+  <data name="Contact_Person_Add_Success" xml:space="preserve">
+    <value>ContactPerson Add Success</value>
+  </data>
+  <data name="Contact_Person_Deleted_Success" xml:space="preserve">
+    <value>ContactPerson Deleted Success</value>
+  </data>
+  <data name="Contact_Person_Found_Success" xml:space="preserve">
+    <value>ContactPerson Found Success</value>
+  </data>
+  <data name="Contact_Person_Listed_Fail" xml:space="preserve">
+    <value>ContactPerson Listed Fail</value>
+  </data>
+  <data name="Contact_Person_Listed_Success" xml:space="preserve">
+    <value>ContactPerson Listed Success</value>
+  </data>
+  <data name="ContactPersonNameCanContainLettersAndNumbers" xml:space="preserve">
+    <value>ContactPerson Name Can Contain Letters And Numbers</value>
+  </data>
+  <data name="Contact_Person_Name_Not_Emmpty" xml:space="preserve">
+    <value>ContactPerson Name Cannot Be Empty</value>
+  </data>
+  <data name="Contact_Person_Name_Not_Exceed_256_Letters" xml:space="preserve">
+    <value>ContactPerson Name Cannot Exceed 256 Letters</value>
+  </data>
+  <data name="Contact_Person_Not_Found" xml:space="preserve">
+    <value>ContactPerson Not Found</value>
+  </data>
+  <data name="Contact_Person_Update_Fail" xml:space="preserve">
+    <value>ContactPerson Update Fail</value>
+  </data>
+  <data name="ContactPersonUpdateSuccess" xml:space="preserve">
+    <value>ContactPerson Update Success</value>
+  </data>
+  <data name="Company_Add_Fail" xml:space="preserve">
+    <value>Company Add Fail</value>
+  </data>
+  <data name="Company_Add_Success" xml:space="preserve">
+    <value>Company Add Success</value>
+  </data>
+  <data name="Company_Already_Exists" xml:space="preserve">
+    <value>Company Already Exists</value>
+  </data>
+  <data name="Company_Contact_Information_Add_Fail" xml:space="preserve">
+    <value>Company Contact Information Add Fail</value>
+  </data>
+  <data name="Company_Contact_Information_Add_Success" xml:space="preserve">
+    <value>Company Contact Information Add Success</value>
+  </data>
+  <data name="Company_Contact_Information_Already_Exists" xml:space="preserve">
+    <value>Company Contact Information Already Exists</value>
+  </data>
+  <data name="Company_Contact_Information_Deleted_Success" xml:space="preserve">
+    <value>Company Contact Information Deleted Success</value>
+  </data>
+  <data name="Company_Contact_Information_Found_Success" xml:space="preserve">
+    <value>Company Contact Information Found Success</value>
+  </data>
+  <data name="Company_Contact_Information_Listed_Fail" xml:space="preserve">
+    <value>Company Contact Information Listed Fail</value>
+  </data>
+  <data name="Company_Contact_Information_Listed_Success" xml:space="preserve">
+    <value>Company Contact Information Listed Success</value>
+  </data>
+  <data name="Company_Contact_Information_Not_Found" xml:space="preserve">
+    <value>Company Contact Information Not Found</value>
+  </data>
+  <data name="Company_Contact_Information_Update_Fail" xml:space="preserve">
+    <value>Company Contact Information Update Fail</value>
+  </data>
+  <data name="Company_Contact_Information_Update_Success" xml:space="preserve">
+    <value>Company Contact Information Update Success</value>
+  </data>
+  <data name="Company_Contact_Information_Id_Required" xml:space="preserve">
+    <value>Company Contact Information Id Required</value>
+  </data>
+  <data name="Company_Deleted_Success" xml:space="preserve">
+    <value>Company Deleted Success</value>
+  </data>
+  <data name="Company_Found_Success" xml:space="preserve">
+    <value>Company Found Success</value>
+  </data>
+  <data name="Company_Listed_Fail" xml:space="preserve">
+    <value>Company Listed Fail</value>
+  </data>
+  <data name="Company_Listed_Success" xml:space="preserve">
+    <value>Company Listed Success</value>
+  </data>
+  <data name="Company_Not_Found" xml:space="preserve">
+    <value>Company Not Found</value>
+  </data>
+  <data name="Company_Update_Fail" xml:space="preserve">
+    <value>Company Update Fail</value>
+  </data>
+  <data name="Company_Update_Success" xml:space="preserve">
+    <value>Company Update Success</value>
+  </data>
+  <data name="List_Has_No_Companies" xml:space="preserve">
+    <value>List Has No Companies</value>
+  </data>
+  <data name="List_Has_No_Company_Contact_Informations" xml:space="preserve">
+    <value>List Has No Company Contact Informations</value>
+  </data>
+  <data name="List_Has_No_Student_Certificates" xml:space="preserve">
+    <value>List Has No Student Certificates</value>
+  </data>
+  <data name="List_Has_No_Student_Departments" xml:space="preserve">
+    <value>List Has No Student Departments</value>
+  </data>
+  <data name="List_Has_No_Student_Languages" xml:space="preserve">
+    <value>List Has No Student Languages</value>
+  </data>
+  <data name="List_Has_No_Student_Training_Programs" xml:space="preserve">
+    <value>List Has No Student Training Programs</value>
+  </data>
+  <data name="Student_Certificate_Add_Fail" xml:space="preserve">
+    <value>Student Certificate Add Fail</value>
+  </data>
+  <data name="Student_Certificate_Add_Success" xml:space="preserve">
+    <value>Student Certificate Add Success</value>
+  </data>
+  <data name="Student_Certificate_Already_Exists" xml:space="preserve">
+    <value>Student Certificate Already Exists</value>
+  </data>
+  <data name="Student_Certificate_Deleted_Success" xml:space="preserve">
+    <value>Student Certificate Deleted Success</value>
+  </data>
+  <data name="Student_Certificate_Found_Success" xml:space="preserve">
+    <value>Student Certificate Found Success</value>
+  </data>
+  <data name="Student_Certificate_Listed_Fail" xml:space="preserve">
+    <value>Student Certificate Listed Fail</value>
+  </data>
+  <data name="Student_Certificate_Listed_Success" xml:space="preserve">
+    <value>Student Certificate Listed Success</value>
+  </data>
+  <data name="Student_Certificate_Not_Found" xml:space="preserve">
+    <value>Student Certificate Not Found</value>
+  </data>
+  <data name="Student_Certificate_Update_Fail" xml:space="preserve">
+    <value>Student Certificate Update Fail</value>
+  </data>
+  <data name="Student_Certificate_Update_Success" xml:space="preserve">
+    <value>Student Certificate Update Success</value>
+  </data>
+  <data name="Student_Certificate_Id_Required" xml:space="preserve">
+    <value>Student Certificate Id Required</value>
+  </data>
+  <data name="Student_Department_Add_Fail" xml:space="preserve">
+    <value>Student Department Add Fail</value>
+  </data>
+  <data name="Student_Department_Add_Success" xml:space="preserve">
+    <value>Student Department Add Success</value>
+  </data>
+  <data name="Student_Department_Already_Exists" xml:space="preserve">
+    <value>Student Department Already Exists</value>
+  </data>
+  <data name="Student_Department_Deleted_Success" xml:space="preserve">
+    <value>Student Department Deleted Success</value>
+  </data>
+  <data name="Student_Department_Found_Success" xml:space="preserve">
+    <value>Student Department Found Success</value>
+  </data>
+  <data name="Student_Department_Listed_Fail" xml:space="preserve">
+    <value>Student Department Listed Fail</value>
+  </data>
+  <data name="Student_Department_Listed_Success" xml:space="preserve">
+    <value>Student Department Listed Success</value>
+  </data>
+  <data name="Student_Department_Not_Found" xml:space="preserve">
+    <value>Student Department Not Found</value>
+  </data>
+  <data name="Student_Department_Update_Fail" xml:space="preserve">
+    <value>Student Department Update Fail</value>
+  </data>
+  <data name="Student_Department_Update_Success" xml:space="preserve">
+    <value>Student Department Update Success</value>
+  </data>
+  <data name="Student_Department_Id_Required" xml:space="preserve">
+    <value>Student Department Id Required</value>
+  </data>
+  <data name="Student_Language_Add_Fail" xml:space="preserve">
+    <value>Student Language Add Fail</value>
+  </data>
+  <data name="Student_Language_Add_Success" xml:space="preserve">
+    <value>Student Language Add Success</value>
+  </data>
+  <data name="Student_Language_Already_Exists" xml:space="preserve">
+    <value>Student Language Already Exists</value>
+  </data>
+  <data name="Student_Language_Deleted_Success" xml:space="preserve">
+    <value>Student Language Deleted Success</value>
+  </data>
+  <data name="Student_Language_Found_Success" xml:space="preserve">
+    <value>Student Language Found Success</value>
+  </data>
+  <data name="Student_Language_Listed_Fail" xml:space="preserve">
+    <value>Student Language Listed Fail</value>
+  </data>
+  <data name="Student_Language_Listed_Success" xml:space="preserve">
+    <value>Student Language Listed Success</value>
+  </data>
+  <data name="Student_Language_Not_Found" xml:space="preserve">
+    <value>Student Language Not Found</value>
+  </data>
+  <data name="Student_Language_Update_Fail" xml:space="preserve">
+    <value>Student Language Update Fail</value>
+  </data>
+  <data name="Student_Language_Update_Success" xml:space="preserve">
+    <value>Student Language Update Success</value>
+  </data>
+  <data name="Student_Language_Id_Required" xml:space="preserve">
+    <value>Student Language Id Required</value>
+  </data>
+  <data name="Student_Listed_Fail" xml:space="preserve">
+    <value>Student Listed Fail</value>
+  </data>
+  <data name="Student_Training_Program_Add_Fail" xml:space="preserve">
+    <value>Student Training Program Add Fail</value>
+  </data>
+  <data name="Student_Training_Program_Add_Success" xml:space="preserve">
+    <value>Student Training Program Add Success</value>
+  </data>
+  <data name="Student_Training_Program_Already_Exists" xml:space="preserve">
+    <value>Student Training Program Already Exists</value>
+  </data>
+  <data name="Student_Training_Program_Deleted_Success" xml:space="preserve">
+    <value>Student Training Program Deleted Success</value>
+  </data>
+  <data name="Student_Training_Program_Found_Success" xml:space="preserve">
+    <value>Student Training Program Found Success</value>
+  </data>
+  <data name="Student_Training_Program_Listed_Fail" xml:space="preserve">
+    <value>Student Training Program Listed Fail</value>
+  </data>
+  <data name="Student_Training_Program_Listed_Success" xml:space="preserve">
+    <value>Student Training Program Listed Success</value>
+  </data>
+  <data name="Student_Training_Program_Not_Found" xml:space="preserve">
+    <value>Student Training Program Not Found</value>
+  </data>
+  <data name="Student_Training_Program_Update_Fail" xml:space="preserve">
+    <value>Student Training Program Update Fail</value>
+  </data>
+  <data name="Student_Training_Program_Update_Success" xml:space="preserve">
+    <value>Student Training Program Update Success</value>
+  </data>
+  <data name="Student_Training_Program_Id_Required" xml:space="preserve">
+    <value>Student Training Program Id Required</value>
+  </data>
+  <data name="Student_Update_Fail" xml:space="preserve">
+    <value>Student Update Fail</value>
+  </data>
+  <data name="Training_Program_Add_Fail" xml:space="preserve">
+    <value>Training Program Add Fail</value>
+  </data>
+  <data name="Training_Program_Listed_Fail" xml:space="preserve">
+    <value>Training Program Listed Fail</value>
+  </data>
+  <data name="Training_Program_Update_Fail" xml:space="preserve">
+    <value>Training Program Update Fail</value>
+  </data>
+  <data name="List_Has_No_Capability" xml:space="preserve">
+    <value>List Has No Capability</value>
+  </data>
+  <data name="Example_Add_Fail" xml:space="preserve">
+    <value>Example Add Fail</value>
+  </data>
+  <data name="Example_Deleted_Success" xml:space="preserve">
+    <value>Example Deleted Success</value>
+  </data>
+  <data name="Example_Found_Success" xml:space="preserve">
+    <value>Example Found Success</value>
+  </data>
+  <data name="Example_Listed_Fail" xml:space="preserve">
+    <value>Example Listed Fail</value>
+  </data>
+  <data name="Example_Listed_Success" xml:space="preserve">
+    <value>Example Listed Success</value>
+  </data>
+  <data name="Example_Not_Found" xml:space="preserve">
+    <value>Example Not Found</value>
+  </data>
+  <data name="Example_Update_Fail" xml:space="preserve">
+    <value>Example Update Fail</value>
+  </data>
+  <data name="Example_Update_Success" xml:space="preserve">
+    <value>Example Update Success</value>
+  </data>
+  <data name="Example_Id_Required" xml:space="preserve">
+    <value>Example Id Required</value>
+  </data>
+  <data name="Example_Name_Required" xml:space="preserve">
+    <value>Example Name Required</value>
+  </data>
+  <data name="Experience_Add_Fail" xml:space="preserve">
+    <value>Experience Add Fail</value>
+  </data>
+  <data name="Experience_Add_Success" xml:space="preserve">
+    <value>Experience Add Success</value>
+  </data>
+  <data name="Experience_Listed_Fail" xml:space="preserve">
+    <value>Experience Listed Fail</value>
+  </data>
+  <data name="Experience_Update_Fail" xml:space="preserve">
+    <value>Experience Update Fail</value>
+  </data>
+  <data name="ExperienceIdNotEmpty" xml:space="preserve">
+    <value>Experience Id Not Empty</value>
+  </data>
+  <data name="List_Has_No_Examples" xml:space="preserve">
+    <value>List Has No Examples</value>
+  </data>
+  <data name="Phone_Number_Must_Be_11_Digit" xml:space="preserve">
+    <value>Phone Number Must Be 11 Digit</value>
+  </data>
+  <data name="Phone_Number_Must_Be_Starting_With_0" xml:space="preserve">
+    <value>Phone Number Must Be Starting With 0</value>
+  </data>
+  <data name="Employee_Add_Fail" xml:space="preserve">
+    <value>Employee Add Fail</value>
+  </data>
+  <data name="Employee_Add_Success" xml:space="preserve">
+    <value>Employee Add Success</value>
+  </data>
+  <data name="Employee_Already_Exists" xml:space="preserve">
+    <value>Employee Already Exists</value>
+  </data>
+  <data name="Employee_Deleted_Success" xml:space="preserve">
+    <value>Employee Deleted Success</value>
+  </data>
+  <data name="Employee_Found_Success" xml:space="preserve">
+    <value>Employee Found Success</value>
+  </data>
+  <data name="Employee_Listed_Fail" xml:space="preserve">
+    <value>Employee Listed Fail</value>
+  </data>
+  <data name="Employee_Listed_Success" xml:space="preserve">
+    <value>Employee Listed Success</value>
+  </data>
+  <data name="Employee_Not_Found" xml:space="preserve">
+    <value>Employee Not Found</value>
+  </data>
+  <data name="Employee_Update_Fail" xml:space="preserve">
+    <value>Employee Update Fail</value>
+  </data>
+  <data name="Employee_Update_Success" xml:space="preserve">
+    <value>Employee Update Success</value>
+  </data>
+  <data name="List_Has_No_Employees" xml:space="preserve">
+    <value>List Has No Employees</value>
+  </data>
+  <data name="Address_Of_Employee_Can_Be_Up_To_200_Characters" xml:space="preserve">
+    <value>Address Of Employee Can Be Up To 200 Characters</value>
+  </data>
+  <data name="Address_Of_Employee_Must_Contain_At_Least_2_Characters" xml:space="preserve">
+    <value>Address Of Employee Must Contain At Least 2 Characters</value>
+  </data>
+  <data name="DateOfBirth_Of_Employee_Cannot_Be_Empty" xml:space="preserve">
+    <value>DateOfBirth Of Employee Cannot Be Empty</value>
+  </data>
+  <data name="DateOfBirth_Of_Employee_Must_Enter_Valid" xml:space="preserve">
+    <value>DateOfBirth Of Employee Must Enter Valid</value>
+  </data>
+  <data name="Employee_Email_Must_Be_Correct_Format" xml:space="preserve">
+    <value>Employee Email Must Be Correct Format</value>
+  </data>
+  <data name="Employee_Email_Not_Empty" xml:space="preserve">
+    <value>Employee Email Not Empty</value>
+  </data>
+   <data name="EmployeeIdRequired" xml:space="preserve">
+    <value>Employee Id Not Empty</value>
+  </data>
+  <data name="Employee_Gender_Must_Be_Selected" xml:space="preserve">
+    <value>Employee Gender Must Be Selected</value>
+  </data>
+  <data name="Employee_Name_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Employee Name Can Only Contain Letters</value>
+  </data>
+  <data name="Employee_Name_Not_Empty" xml:space="preserve">
+    <value>Employee Name Not Empty</value>
+  </data>
+  <data name="Employee_PhoneNumber_Can_Only_Contain_Number" xml:space="preserve">
+    <value>Employee PhoneNumber Can Only Contain Number</value>
+  </data>
+  <data name="Employee_Phone_Number_Must_Be_11_Digits_and_Starting_With_0" xml:space="preserve">
+    <value>Employee Phone Number Must Be 11 Digits and Starting With 0</value>
+  </data>
+  <data name="Employee_Please_Select_Valid_Gender" xml:space="preserve">
+    <value>Employee Please Select Valid Gender</value>
+  </data>
+  <data name="Employee_Surname_Can_Be_Up_To_30_Characters" xml:space="preserve">
+    <value>Employee Surname Can Be Up To 30 Characters</value>
+  </data>
+  <data name="Employee_Surname_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Employee Surname Can Only Contain Letters</value>
+  </data>
+  <data name="Employee_Surname_Not_Empty" xml:space="preserve">
+    <value>Employee Surname Not Empty</value>
+  </data>
+  <data name="Employe_Name_Can_Be_Up_To_30_Characters" xml:space="preserve">
+    <value>Employe Name Can Be Up To 30 Characters</value>
+  </data>
+  <data name="Employee_FirstName_Must_Contain_At_Least_2_Characters" xml:space="preserve">
+    <value>Employee FirstName Must Contain At Least 2 Characters</value>
+  </data>
+  <data name="Employee_LastName_Must_Contain_At_Least_2_Characters" xml:space="preserve">
+    <value>Employee LastName Must Contain At Least 2 Characters</value>
+  </data>
+  <data name="Contact_Person_Company_Id_Not_Empty" xml:space="preserve">
+    <value>Contact Person Company Id Not Empty</value>
+  </data>
+  <data name="Contact_Person_Department_Not_Empty" xml:space="preserve">
+    <value>Contact Person Department Not Empty</value>
+  </data>
+  <data name="Contact_Person_Department_Not_Exceed_256_Letters" xml:space="preserve">
+    <value>Contact Person Department Not Exceed 256 Letters</value>
+  </data>
+  <data name="Contact_Person_Email_Not_Empty" xml:space="preserve">
+    <value>Contact Person Email Not Empty</value>
+  </data>
+  <data name="Contact_Person_Id_Is_Required_For_Update" xml:space="preserve">
+    <value>Contact Person Id Is Required For Update</value>
+  </data>
+  <data name="Contact_Person_Phone_Number_Min_Length" xml:space="preserve">
+    <value>Contact Person Phone Number Min Length</value>
+  </data>
+  <data name="Contact_Person_Phone_Number_Not_Empty" xml:space="preserve">
+    <value>Contact Person Phone Number Not Empty</value>
+  </data>
+  <data name="Contact_Person_Position_Not_Empty" xml:space="preserve">
+    <value>Contact Person Position Not Empty</value>
+  </data>
+  <data name="Contact_Person_Position_Not_Exceed_50_Letters" xml:space="preserve">
+    <value>Contact Person Position Not Exceed 50 Letters</value>
+  </data>
+  <data name="List_Has_No_Contact_Person" xml:space="preserve">
+    <value>List Has No Contact Person</value>
+  </data>
+  <data name="Event_Name_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>Event Name Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Event_Student_Add_Fail" xml:space="preserve">
+    <value>Event Student Add Fail</value>
+  </data>
+  <data name="Event_Student_Add_Success" xml:space="preserve">
+    <value>Event Student Add Success</value>
+  </data>
+  <data name="Event_Student_Already_Exists" xml:space="preserve">
+    <value>Event Student Already Exists</value>
+  </data>
+  <data name="Event_Student_Deleted_Success" xml:space="preserve">
+    <value>Event Student Deleted Success</value>
+  </data>
+  <data name="Event_Student_Found_Success" xml:space="preserve">
+    <value>Event Student Found Success</value>
+  </data>
+  <data name="Event_Student_Listed_Fail" xml:space="preserve">
+    <value>Event Student Listed Fail</value>
+  </data>
+  <data name="Event_Student_Listed_Success" xml:space="preserve">
+    <value>Event Student Listed Success</value>
+  </data>
+  <data name="Event_Student_Not_Found" xml:space="preserve">
+    <value>Event Student Not Found</value>
+  </data>
+  <data name="Event_Student_Update_Fail" xml:space="preserve">
+    <value>Event Student Update Fail</value>
+  </data>
+  <data name="Event_Student_Update_Success" xml:space="preserve">
+    <value>Event Student Update Success</value>
+  </data>
+  <data name="List_Has_No_Event_Students" xml:space="preserve">
+    <value>List Has No Event Students</value>
+  </data>
+  <data name="Event_Student_Id_Required" xml:space="preserve">
+    <value>Event Student Id Required</value>
+  </data>
+  <data name="Company_Contact_Information_Address_Min_Length" xml:space="preserve">
+    <value>Company Contact Information Address Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Company_General_Information_Min_Length" xml:space="preserve">
+    <value>Company General Information Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Company_Location_Min_Length" xml:space="preserve">
+    <value>Company Location Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Company_Name_Min_Length" xml:space="preserve">
+    <value>Company Name Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Company_Sector_Min_Length" xml:space="preserve">
+    <value>Company Sector Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Job_Description_Can_Not_Exceed_256_Characters" xml:space="preserve">
+    <value>Job Description Can Not Exceed 256 Characters</value>
+  </data>
+  <data name="Job_Description_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>Job Description Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Job_Education_Can_Not_Exceed_256_Characters" xml:space="preserve">
+    <value>Job Education Can Not Exceed 256 Characters</value>
+  </data>
+  <data name="Job_Education_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>Job Education Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Job_Experience_Can_Not_Exceed_256_Characters" xml:space="preserve">
+    <value>Job Experience Can Not Exceed 256 Characters</value>
+  </data>
+  <data name="Job_Experience_Must_Be_At_Least_1_Characters" xml:space="preserve">
+    <value>Job Experience Must Be At Least 1 Characters</value>
+  </data>
+  <data name="Job_Position_Can_Not_Exceed_100_Characters" xml:space="preserve">
+    <value>Job Position Can Not Exceed 100 Characters</value>
+  </data>
+  <data name="Job_Position_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>Job Position Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Contact_Person_Department_Min_Length" xml:space="preserve">
+    <value>Contact Person Department Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Contact_Person_Full_Name_Min_Length" xml:space="preserve">
+    <value>Contact Person Full Name Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Contact_Person_Position_Min_Length" xml:space="preserve">
+    <value>Contact Person Position Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Company_Contact_Information_Address_Max_Length" xml:space="preserve">
+    <value>Company Contact Information Address Cannot Exceed 200 Characters</value>
+  </data>
+  <data name="Company_General_Information_Max_Length" xml:space="preserve">
+    <value>Company General Information Cannot Exceed 200 Letters</value>
+  </data>
+  <data name="Company_Location_Max_Length" xml:space="preserve">
+    <value>Company Location Cannot Exceed 50 Letters</value>
+  </data>
+  <data name="Company_Sector_Max_Length" xml:space="preserve">
+    <value>Company Sector Cannot Exceed 50 Characters</value>
+  </data>
+  <data name="Application_Add_Fail" xml:space="preserve">
+    <value>Application Add Fail</value>
+  </data>
+  <data name="Application_Add_Success" xml:space="preserve">
+    <value>Application Add Success</value>
+  </data>
+  <data name="Application_Already_Exists" xml:space="preserve">
+    <value>Application Already Exists</value>
+  </data>
+  <data name="Application_Deleted_Success" xml:space="preserve">
+    <value>Application Deleted Success</value>
+  </data>
+  <data name="Application_Found_Success" xml:space="preserve">
+    <value>Application Found Success</value>
+  </data>
+  <data name="Application_Listed_Fail" xml:space="preserve">
+    <value>Application Listed Fail</value>
+  </data>
+  <data name="Application_Listed_Success" xml:space="preserve">
+    <value>Application Listed Success</value>
+  </data>
+  <data name="Application_Not_Found" xml:space="preserve">
+    <value>Application Not Found</value>
+  </data>
+  <data name="Application_Update_Fail" xml:space="preserve">
+    <value>Application Update Fail</value>
+  </data>
+  <data name="Application_Update_Success" xml:space="preserve">
+    <value>Application Update Success</value>
+  </data>
+  <data name="List_Has_No_Applications" xml:space="preserve">
+    <value>List Has No Applications</value>
+  </data>
+  <data name="Application_Date_Required" xml:space="preserve">
+    <value>Application Date Required</value>
+  </data>
+  <data name="Application_Date_Within_Year" xml:space="preserve">
+    <value>Application Date Within Year</value>
+  </data>
+  <data name="Application_Description_Max_Length" xml:space="preserve">
+    <value>Application Description Max Length</value>
+  </data>
+  <data name="Application_Status_For_Required" xml:space="preserve">
+    <value>Application Status For Required</value>
+  </data>
+  <data name="Candidate_Add_Fail" xml:space="preserve">
+    <value>Candidate Add Fail</value>
+  </data>
+  <data name="Application_Id_Required" xml:space="preserve">
+    <value>Application Id Required</value>
+  </data>
+  <data name="Is_Candidate_Is_Required" xml:space="preserve">
+    <value>Is Candidate Is Required</value>
+  </data>
+  <data name="Student_Email_Cannot_Be_Empty" xml:space="preserve">
+    <value>Student Email Cannot Be Empty</value>
+  </data>
+  <data name="Student_Name_Must_Be_At_Least_3_Characters" xml:space="preserve">
+    <value>Student Name Must Be At Least 3 Characters</value>
+  </data>
+  <data name="Student_Name_Must_Be_Maximum_30_Characters" xml:space="preserve">
+    <value>Student Name Must Be Maximum 30 Characters</value>
+  </data>
+  <data name="Student_Surname_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>Student Surname Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Student_Surname_Must_Be_Maximum_30_Characters" xml:space="preserve">
+    <value>Student Surname Must Be Maximum 30 Characters</value>
+  </data>
+  <data name="Candidate_Email_Cannot_Be_Empty" xml:space="preserve">
+    <value>Candidate Email Cannot Be Empty</value>
+  </data>
+  <data name="Candidate_Name_Cannot_Be_Empty" xml:space="preserve">
+    <value>Candidate Name Cannot Be Empty</value>
+  </data>
+  <data name="Candidate_Name_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Candidate Name Can Only Contain Letters</value>
+  </data>
+  <data name="Candidate_Name_Must_Be_At_Least_3_Characters" xml:space="preserve">
+    <value>Candidate Name Must Be At Least 3 Characters</value>
+  </data>
+  <data name="Candidate_Name_Must_Be_Maximum_30_Characters" xml:space="preserve">
+    <value>Candidate Name Must Be Maximum 30 Characters</value>
+  </data>
+  <data name="Candidate_Surname_Cannot_Be_Empty" xml:space="preserve">
+    <value>Candidate Surname Cannot Be Empty</value>
+  </data>
+  <data name="Candidate_Surname_Can_Only_Contain_Letters" xml:space="preserve">
+    <value>Candidate Surname Can Only Contain Letters</value>
+  </data>
+  <data name="Candidate_Surname_Must_Be_At_Least_2_Characters" xml:space="preserve">
+    <value>Candidate Surname Must Be At Least 2 Characters</value>
+  </data>
+  <data name="Candidate_Surname_Must_Be_Maximum_30_Characters" xml:space="preserve">
+    <value>Candidate Surname Must Be Maximum 30 Characters</value>
+  </data>
+  <data name="Mail_Send_Completed" xml:space="preserve">
+    <value>Mail Send Completed</value>
+  </data>
+  <data name="Mail_Send_Fail" xml:space="preserve">
+    <value>Mail Send Fail</value>
+  </data>
+  <data name="Mail_Send_Success" xml:space="preserve">
+    <value>Mail Send Success</value>
+  </data>
+</root>
